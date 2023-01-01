@@ -1,3 +1,5 @@
 state = { 
 	id = 299
+	manpower = 2463
+	state_category = enclave
 }

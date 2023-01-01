@@ -31,7 +31,7 @@ for i, color in enumerate(colors):
     if not mask.any():
         province_counter += 1
         last_id = definition.loc[len(definition) - 1, 'id']
-        definition.loc[len(definition)] = [last_id + 1, *colors, 'land', 'false', 'unknown', 7]
+        definition.loc[len(definition)] = [last_id + 1, *colors, 'sea', 'false', 'ocean', 7]
 
 definition.to_csv(definition_path, header=False, index=False, sep=";")
 

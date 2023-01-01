@@ -1,0 +1,9 @@
+strategic_region={
+	id=73
+	name="STRATEGICREGION_73"
+	provinces={
+		799 805 823 828 829 830 846 847 851 856 862 864 879 880 
+	}
+	weather={
+	}
+}

@@ -1,3 +1,5 @@
 state = { 
 	id = 463
+	manpower = 67500
+	state_category = rural
 }

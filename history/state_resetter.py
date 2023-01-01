@@ -68,13 +68,13 @@ def save_state(state, directory_path):
 
 def save_empty_state(state, directory_path):
     with open(directory_path + "/" + state['_name'], "w") as file:
-        _save_contents(state, file, whitelist=['state', 'id'])
+        _save_contents(state, file, whitelist=['state', 'id', 'manpower', 'state_category'])
 
 original_state_path = "C:/Program Files (x86)/Steam/steamapps/common/Hearts of Iron IV/history/states"
 state_path = "C:/Users/nectot/Documents/Paradox Interactive/Hearts of Iron IV/mod/pvp/history/states"
 
 
-min_id = 101
+min_id = 102
 for filename in listdir(original_state_path):
     state = parse_file(original_state_path + "/" + filename, filename)
     if int(state['state']['id']) >= min_id:
