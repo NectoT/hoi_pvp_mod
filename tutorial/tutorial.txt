@@ -1,0 +1,10 @@
+tutorial = {
+
+# =======
+#tutorial {
+#	window = "tutorial_screen_1_1"
+#	open_hint {
+#		hint = "tutorial_screen_1_1"
+#		button = "open_hint_introdution_1_2"
+#	}
+#}

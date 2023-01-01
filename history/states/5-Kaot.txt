@@ -1,0 +1,13 @@
+state={
+	id=5
+	name="STATE_5"
+	provinces={
+		1137 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+
+	state_category=small_island
+	manpower=23000
+}
