@@ -4,7 +4,7 @@ state={
 	provinces={
 		492 493 507 515 521 525 529 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	manpower=5738000
+	state_category=megalopolis
 	local_supplies=0.000
 }

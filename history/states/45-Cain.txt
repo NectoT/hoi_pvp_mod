@@ -5,6 +5,7 @@ state={
 		688 691 695 717 
 	}
 	manpower=0
+	state_category=wasteland
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
