@@ -1,9 +1,98 @@
-strategic_region={
-	id=8
-	name="STRATEGICREGION_8"
-	provinces={
-		489 509 513 528 532 542 548 549 557 558 568 572 577 578 591 596 597 602 603 613 614 619 621 630 633 643 651 652 657 664 669 674 680 687 707 708 712 715 721 762 1361 1365 
-	}
-	weather={
+strategic_region = { 
+	id = 8
+	name = STRATEGICREGION_8
+	provinces = { 
+		489 509 513 528 532 542 548 549 557 558 568 572 577 578 591 596 597 602 603 613 614 619 621 630 633 643 651 652 657 664 669 674 680 687 707 708 712 715 721 762 1361 1365 	}
+	weather = { 
+		period = { 
+			between = { 
+				0.11 0.2 			}
+			temperature = { 
+				-15 2 			}
+			no_phenomenon = 0.5
+			rain_light = 0
+			rain_heavy = 0
+			snow = 0.4
+			blizzard = 0.1
+			arctic_water = 0.0
+			mud = 0
+			sandstorm = 0.0
+			min_snow_level = 0
+		}
+		period = { 
+			between = { 
+				1.2 30.2 			}
+			temperature = { 
+				0 16 			}
+			no_phenomenon = 0.5
+			rain_light = 0.2
+			rain_heavy = 0
+			snow = 0
+			blizzard = 0
+			arctic_water = 0.0
+			mud = 0.3
+			sandstorm = 0.0
+			min_snow_level = 0
+		}
+		period = { 
+			between = { 
+				0.3 30.4 			}
+			temperature = { 
+				10 24 			}
+			no_phenomenon = 0.5
+			rain_light = 0.2
+			rain_heavy = 0.1
+			snow = 0
+			blizzard = 0
+			arctic_water = 0.0
+			mud = 0.1
+			sandstorm = 0.0
+			min_snow_level = 0
+		}
+		period = { 
+			between = { 
+				0.5 30.7 			}
+			temperature = { 
+				16 30 			}
+			no_phenomenon = 0.5
+			rain_light = 0.2
+			rain_heavy = 0.2
+			snow = 0
+			blizzard = 0
+			arctic_water = 0.0
+			mud = 0
+			sandstorm = 0.0
+			min_snow_level = 0
+		}
+		period = { 
+			between = { 
+				0.8 30.9 			}
+			temperature = { 
+				10 24 			}
+			no_phenomenon = 0.5
+			rain_light = 0.4
+			rain_heavy = 0.1
+			snow = 0
+			blizzard = 0
+			arctic_water = 0.0
+			mud = 0.1
+			sandstorm = 0.0
+			min_snow_level = 0
+		}
+		period = { 
+			between = { 
+				0.1 29.1 			}
+			temperature = { 
+				2 17 			}
+			no_phenomenon = 0.5
+			rain_light = 0.3
+			rain_heavy = 0.1
+			snow = 0
+			blizzard = 0
+			arctic_water = 0.0
+			mud = 0.1
+			sandstorm = 0.0
+			min_snow_level = 0
+		}
 	}
 }

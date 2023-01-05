@@ -1,9 +1,23 @@
-strategic_region={
-	id=37
-	name="STRATEGICREGION_37"
-	provinces={
-		1115 1144 1152 1163 1184 1197 1202 1220 1222 1228 1253 1281 1285 1302 1312 1318 1328 1332 1340 1350 1352 1358 
-	}
-	weather={
+strategic_region = { 
+	id = 37
+	name = STRATEGICREGION_37
+	provinces = { 
+		1115 1144 1152 1163 1184 1197 1202 1220 1222 1228 1253 1281 1285 1302 1312 1318 1328 1332 1340 1350 1352 1358 	}
+	weather = { 
+		period = { 
+			between = { 
+				0.0 30.11 			}
+			temperature = { 
+				-20 -4 			}
+			no_phenomenon = 0.5
+			rain_light = 0.1
+			rain_heavy = 0.45
+			snow = 0.2
+			blizzard = 0.3
+			arctic_water = 0.0
+			mud = 0
+			sandstorm = 0.0
+			min_snow_level = 0.0
+		}
 	}
 }

@@ -1,9 +1,68 @@
-strategic_region={
-	id=69
-	name="STRATEGICREGION_69"
-	provinces={
-		431 432 434 435 436 437 439 440 445 446 451 452 453 454 470 471 473 474 486 487 498 502 522 523 
-	}
-	weather={
+strategic_region = { 
+	id = 69
+	name = STRATEGICREGION_69
+	provinces = { 
+		431 432 434 435 436 437 439 440 445 446 451 452 453 454 470 471 473 474 486 487 498 502 522 523 	}
+	weather = { 
+		period = { 
+			between = { 
+				0.11 30.2 			}
+			temperature = { 
+				14 25 			}
+			no_phenomenon = 0.5
+			rain_light = 0.1
+			rain_heavy = 0.2
+			snow = 0
+			blizzard = 0
+			arctic_water = 0.0
+			mud = 0
+			sandstorm = 0.0
+			min_snow_level = 0.0
+		}
+		period = { 
+			between = { 
+				0.3 29.5 			}
+			temperature = { 
+				18 30 			}
+			no_phenomenon = 0.5
+			rain_light = 0.15
+			rain_heavy = 0
+			snow = 0
+			blizzard = 0
+			arctic_water = 0.0
+			mud = 0
+			sandstorm = 0.0
+			min_snow_level = 0.0
+		}
+		period = { 
+			between = { 
+				0.6 30.9 			}
+			temperature = { 
+				20 38 			}
+			no_phenomenon = 0.5
+			rain_light = 0
+			rain_heavy = 0
+			snow = 0
+			blizzard = 0
+			arctic_water = 0.0
+			mud = 0
+			sandstorm = 0.0
+			min_snow_level = 0.0
+		}
+		period = { 
+			between = { 
+				0.1 30.11 			}
+			temperature = { 
+				20 38 			}
+			no_phenomenon = 0.3
+			rain_light = 0.2
+			rain_heavy = 0.6
+			snow = 0
+			blizzard = 0
+			arctic_water = 0.0
+			mud = 0
+			sandstorm = 0.0
+			min_snow_level = 0.0
+		}
 	}
 }
