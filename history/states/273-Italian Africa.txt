@@ -1,5 +1,0 @@
-state = { 
-	id = 273
-	manpower = 42633
-	state_category = wasteland
-}

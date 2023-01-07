@@ -1,5 +1,0 @@
-state = { 
-	id = 118
-	manpower = 21372
-	state_category = enclave
-}

@@ -1,5 +1,0 @@
-state = { 
-	id = 275
-	manpower = 3680363
-	state_category = city
-}
