@@ -1,14 +1,14 @@
-state = { 
+state = {
 	id = 102
 	name = STATE_102
-	provinces = { 
+	provinces = {
 		450 468 1373}
 	manpower = 100
 	state_category = wasteland
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
 	history = {
-		owner = WVA
+		owner = EVA
 	}
 	impassable = yes
 }
