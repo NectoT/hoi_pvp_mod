@@ -9,6 +9,7 @@ state = {
 	state_category = pastoral
 	history = { 
 		owner = EGL
+		add_core_of = EGL
 		buildings = { 
 			infrastructure = 1
 		}

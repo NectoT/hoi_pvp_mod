@@ -11,6 +11,7 @@ state = {
 		owner = FEI
 		victory_points = { 
 			1001 5 		}
+		add_core_of = FEI
 		buildings = { 
 			infrastructure = 2
 			arms_factory = 1

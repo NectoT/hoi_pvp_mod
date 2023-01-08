@@ -13,6 +13,7 @@ state = {
 			1015 1 		}
 		victory_points = { 
 			1034 3 		}
+		add_core_of = FEI
 		buildings = { 
 			infrastructure = 2
 			arms_factory = 2

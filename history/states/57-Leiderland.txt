@@ -11,6 +11,13 @@ state = {
 		owner = EVA
 		victory_points = { 
 			830 3 		}
+		buildings = { 
+			infrastructure = 2
+			industrial_complex = 1
+			864 = { 
+				naval_base = 4
+			}
+		}
 	}
 	resources = { 
 		chromium = 50

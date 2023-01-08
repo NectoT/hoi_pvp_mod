@@ -30,7 +30,9 @@ countries = {
 
 cores = {
     'TOA': [24, 25, 26],
-    'TAM': [27, 28, 29]
+    'TAM': [27, 28, 29],
+    'FEI': [14, 16, 18, 20, 22, 8, 9, 10],
+    'EGL': [15, 17, 19, 21, 23, 11, 12, 13]
 }
 
 impassable_states = [40, 41, 46, 43, 44, 45, 1]
@@ -184,7 +186,7 @@ set_buildings(states[80], {
         'naval_base': 5
     }
 })
-set_buildings(states[80], {
+set_buildings(states[81], {
     'infrastructure': 1,
     'industrial_complex': 1,
     'dockyard': 1,
@@ -297,7 +299,7 @@ set_buildings(states[56], {
         'naval_base': 4
     }
 })
-set_buildings(states[56], {
+set_buildings(states[57], {
     'infrastructure': 2,
     'industrial_complex': 1,
     864: {

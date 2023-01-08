@@ -13,6 +13,7 @@ state = {
 			1059 1 		}
 		victory_points = { 
 			1098 1 		}
+		add_core_of = EGL
 		buildings = { 
 			infrastructure = 1
 			arms_factory = 1
