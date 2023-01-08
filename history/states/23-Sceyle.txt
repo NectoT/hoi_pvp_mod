@@ -1,22 +1,22 @@
-state = {
+state = { 
 	id = 23
 	name = STATE_23
-	provinces = {
+	provinces = { 
 		968 975 984 990 1002 1007 1008 1019 	}
 	manpower = 2760000
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
 	state_category = town
-	history = {
+	history = { 
 		owner = EGL
-		victory_points = {
+		victory_points = { 
 			1002 5 		}
-		buildings = {
+		buildings = { 
 			infrastructure = 2
 			arms_factory = 1
 			dockyard = 2
 			air_base = 3
-			1008 = {
+			1008 = { 
 				naval_base = 5
 			}
 		}

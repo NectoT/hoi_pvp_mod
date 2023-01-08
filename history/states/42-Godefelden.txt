@@ -4,7 +4,7 @@ state = {
 	provinces = { 
 		508 555 556 590 	}
 	manpower = 2200000
-	state_category = rural
+	state_category = town
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
 	history = { 
