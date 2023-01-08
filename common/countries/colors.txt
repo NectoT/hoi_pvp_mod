@@ -1,0 +1,31 @@
+#reload countrycolors
+
+TOA = {
+	color = rgb { 96 181 32 }
+	color_ui = rgb { 96 181 32 }
+}
+
+TAM = {
+	color = rgb { 173 214 27 }
+	color_ui = rgb { 173 214 27 }
+}
+
+EVA = {
+	color = rgb { 211 180 55 }
+	color_ui = rgb { 211 180 55 }
+}
+
+WVA = {
+	color = rgb { 114 85 209 }
+	color_ui = rgb { 114 85 209 }
+}
+
+FEI = {
+	color = rgb { 191 43 85 }
+	color_ui = rgb { 191 43 85 }
+}
+
+EGL = {
+	color = rgb { 116 136 165 }
+	color_ui = rgb { 116 136 165 }
+}

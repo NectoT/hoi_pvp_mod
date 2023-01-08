@@ -1,0 +1,11 @@
+leader_traits = {
+    unpopular_figurehead = {
+		random = no
+
+		stability_factor = -0.15
+		political_power_gain = -0.5
+		mobilization_laws_cost_factor = 0.5
+
+		# command_cap = @tier1
+	}
+}

@@ -1,0 +1,46 @@
+division_template = {
+	name = "Infantry Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		field_hospital = { x = 0 y = 0}
+	}
+}
+
+units = {
+	division = {
+		location = 1001
+		division_template = "Infantry Division"
+		name = "First Batallion"
+	}
+	division = {
+		location = 1001
+		division_template = "Infantry Division"
+		name = "Second Batallion"
+	}
+	division = {
+		location = 1001
+		division_template = "Infantry Division"
+		name = "Third Batallion"
+	}
+	division = {
+		location = 1001
+		division_template = "Infantry Division"
+		name = "Fourth Batallion"
+	}
+	division = {
+		location = 1001
+		division_template = "Infantry Division"
+		name = "Fifth Batallion"
+	}
+	division = {
+		location = 1232
+		division_template = "Infantry Division"
+		name = "Expeditionary Batallion"
+	}
+}

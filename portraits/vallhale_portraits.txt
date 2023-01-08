@@ -1,0 +1,131 @@
+EVA = {
+	political = {
+		democratic = {
+			male = {
+				"gfx/leaders/ENG/portrait_Britain_Generic_2.dds"
+				"gfx/leaders/ENG/portrait_Britain_Generic_2.dds"
+				"gfx/leaders/Europe/portrait_europe_generic_4.dds"
+				"gfx/leaders/Europe/portrait_europe_generic_5.dds"
+			}
+		}
+		neutrality = {
+			male = {
+				"gfx/leaders/Europe/portrait_europe_generic_4.dds"
+				"gfx/leaders/Europe/portrait_europe_generic_5.dds"
+				"gfx/leaders/GER/Portrait_Germany_Konrad_Adenauer.dds"
+			}
+		}
+		communism = {
+			male = {
+				"gfx/leaders/RAJ/portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/USA/Portrait_USA_William_Dudley_Pelley.dds"
+				"gfx/leaders/GER/Portrait_Germany_Generic_3.dds"
+				"gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
+			}
+		}
+		fascism = {
+			male = {
+				"gfx/leaders/ITA/Portrait_Italy_Carlo_Bergamini.dds"
+				"gfx/leaders/GER/Portrait_Germany_Generic_3.dds"
+				"gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
+			}
+		}
+	}
+}
+
+WVA = {
+	political = {
+		democratic = {
+			male = {
+				"gfx/leaders/ENG/portrait_Britain_Generic_2.dds"
+				"gfx/leaders/ENG/portrait_Britain_Generic_2.dds"
+				"gfx/leaders/Europe/portrait_europe_generic_4.dds"
+				"gfx/leaders/Europe/portrait_europe_generic_5.dds"
+			}
+		}
+		neutrality = {
+			male = {
+				"gfx/leaders/Europe/portrait_europe_generic_4.dds"
+				"gfx/leaders/Europe/portrait_europe_generic_5.dds"
+				"gfx/leaders/GER/Portrait_Germany_Konrad_Adenauer.dds"
+			}
+		}
+		communism = {
+			male = {
+				"gfx/leaders/RAJ/portrait_The_Raj_Political_Leader_Generic_2.dds"
+				"gfx/leaders/USA/Portrait_USA_William_Dudley_Pelley.dds"
+				"gfx/leaders/GER/Portrait_Germany_Generic_3.dds"
+				"gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
+			}
+		}
+		fascism = {
+			male = {
+				"gfx/leaders/ITA/Portrait_Italy_Carlo_Bergamini.dds"
+				"gfx/leaders/GER/Portrait_Germany_Generic_3.dds"
+				"gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
+			}
+		}
+	}
+}
+
+FEI = {
+	political = {
+		democratic = {
+			male = {
+				"gfx/leaders/CAN/Portrait_Canada_Tim_Buck.dds"
+				"gfx/leaders/ENG/Portrait_Britain_Palme_Dutt.dds"
+				"gfx/leaders/GER/Portrait_Germany_Konrad_Adenauer.dds"
+			}
+		}
+		fascism = {
+			male = {
+				"gfx/leaders/Europe/portrait_europe_generic_6.dds"
+				"gfx/leaders/Europe/portrait_Europe_Generic_land_5.dds"
+			}
+		}
+		neutrality = {
+			male = {
+				"gfx/leaders/ENG/Portrait_Britain_Palme_Dutt.dds"
+				"gfx/leaders/ENG/portrait_eng_harry_pollitt.dds"
+				"gfx/leaders/GER/Portrait_Germany_Konrad_Adenauer.dds"
+			}
+		}
+		communism = {
+			male = {
+				"gfx/leaders/GER/Portrait_Germany_Generic_3.dds"
+				"gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
+			}
+		}
+	}
+}
+
+EGL = {
+	political = {
+		democratic = {
+			male = {
+				"gfx/leaders/CAN/Portrait_Canada_Tim_Buck.dds"
+				"gfx/leaders/ENG/Portrait_Britain_Palme_Dutt.dds"
+				"gfx/leaders/GER/Portrait_Germany_Konrad_Adenauer.dds"
+			}
+		}
+		fascism = {
+			male = {
+				"gfx/leaders/Europe/portrait_europe_generic_6.dds"
+				"gfx/leaders/Europe/portrait_Europe_Generic_land_5.dds"
+			}
+		}
+		neutrality = {
+			male = {
+				"gfx/leaders/ENG/Portrait_Britain_Palme_Dutt.dds"
+				"gfx/leaders/ENG/portrait_eng_harry_pollitt.dds"
+				"gfx/leaders/GER/Portrait_Germany_Konrad_Adenauer.dds"
+			}
+		}
+		communism = {
+			male = {
+				"gfx/leaders/GER/Portrait_Germany_Generic_3.dds"
+				"gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
+			}
+		}
+	}
+}

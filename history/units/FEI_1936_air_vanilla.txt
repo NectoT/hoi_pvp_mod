@@ -1,0 +1,14 @@
+air_wings = {
+	22 = {
+		nav_bomber_equipment_1 = {
+			owner = FEI
+			amount = 100
+		}
+	}
+	22 = {
+		fighter_equipment_0 = {
+			owner = FEI
+			amount = 80
+		}
+	}
+}

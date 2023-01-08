@@ -1,0 +1,32 @@
+characters = {
+	EVA_military_guy = {
+		name = EVA_military_guy
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Michael_Costello
+			}
+			army = {
+				large = GFX_portrait_Michael_Costello
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = { unpopular_figurehead }
+		}
+	}
+	WVA_military_guy = {
+		name = WVA_military_guy
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Edvard_Benes
+			}
+			army = {
+				large = GFX_portrait_Edvard_Benes
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = { unpopular_figurehead }
+		}
+	}
+}
