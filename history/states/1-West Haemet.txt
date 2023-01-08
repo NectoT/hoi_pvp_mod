@@ -1,0 +1,14 @@
+state = { 
+	id = 1
+	name = STATE_1
+	provinces = { 
+		449 467 1372}
+	manpower = 100
+	state_category = wasteland
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	history = {
+		owner = WVA
+	}
+	impassable = yes
+}
