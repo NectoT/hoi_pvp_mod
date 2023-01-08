@@ -1,11 +1,18 @@
-state={
-	id=57
-	name="STATE_57"
-	provinces={
-		805 823 830 847 862 864 
+state = { 
+	id = 57
+	name = STATE_57
+	provinces = { 
+		805 823 830 847 862 864 	}
+	manpower = 3100000
+	state_category = town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	history = { 
+		owner = EVA
+		victory_points = { 
+			830 3 		}
 	}
-	manpower=3100000
-	state_category=town
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	resources = { 
+		chromium = 50
+	}
 }

@@ -1,13 +1,13 @@
-state={
-	id=3
-	name="STATE_3"
-	provinces={
-		1123 1143 1172 1174 1183 1195 1201 1205 
+state = { 
+	id = 3
+	name = STATE_3
+	provinces = { 
+		1123 1143 1172 1174 1183 1195 1201 1205 	}
+	manpower = 18000
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = tiny_island
+	history = { 
+		owner = EVA
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	
-	state_category=tiny_island
-	manpower=18000
 }

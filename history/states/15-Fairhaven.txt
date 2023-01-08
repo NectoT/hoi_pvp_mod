@@ -1,11 +1,27 @@
-state={
-	id=15
-	name="STATE_15"
-	provinces={
-		1010 1013 1016 1017 1026 1029 1035 1051 
+state = { 
+	id = 15
+	name = STATE_15
+	provinces = { 
+		1010 1013 1016 1017 1026 1029 1035 1051 	}
+	manpower = 1100000
+	state_category = town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	history = { 
+		owner = EGL
+		victory_points = { 
+			1016 1 		}
+		victory_points = { 
+			1035 3 		}
+		buildings = { 
+			infrastructure = 2
+			arms_factory = 2
+			1035 = { 
+				naval_base = 4
+			}
+		}
 	}
-	manpower=1100000
-	state_category=rural
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	resources = { 
+		chromium = 60
+	}
 }

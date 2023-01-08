@@ -1,11 +1,19 @@
-state={
-	id=74
-	name="STATE_74"
-	provinces={
-		600 611 620 638 
+state = { 
+	id = 74
+	name = STATE_74
+	provinces = { 
+		600 611 620 638 	}
+	manpower = 1740000
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	history = { 
+		owner = WVA
+		buildings = { 
+			infrastructure = 3
+		}
 	}
-	manpower=1740000
-	state_category=rural
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	resources = { 
+		steel = 20
+	}
 }

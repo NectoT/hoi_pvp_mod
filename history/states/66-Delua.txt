@@ -1,11 +1,17 @@
-state={
-	id=66
-	name="STATE_66"
-	provinces={
-		608 634 644 648 658 660 585
+state = { 
+	id = 66
+	name = STATE_66
+	provinces = { 
+		608 634 644 648 658 660 585 	}
+	manpower = 4290000
+	state_category = town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	history = { 
+		owner = WVA
+		buildings = { 
+			infrastructure = 3
+			industrial_complex = 1
+		}
 	}
-	manpower=4290000
-	state_category=town
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
 }

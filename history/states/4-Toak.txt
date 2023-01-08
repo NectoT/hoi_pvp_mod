@@ -1,13 +1,19 @@
-state={
-	id=4
-	name="STATE_4"
-	provinces={
-		1136 
+state = { 
+	id = 4
+	name = STATE_4
+	provinces = { 
+		1136 	}
+	manpower = 23000
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = small_island
+	history = { 
+		owner = WVA
+		buildings = { 
+			infrastructure = 1
+			1136 = { 
+				naval_base = 3
+			}
+		}
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-
-	state_category=small_island
-	manpower=23000
 }

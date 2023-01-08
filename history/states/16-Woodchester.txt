@@ -1,11 +1,19 @@
-state={
-	id=16
-	name="STATE_16"
-	provinces={
-		959 960 978 985 986 994 997 999 1005 
+state = { 
+	id = 16
+	name = STATE_16
+	provinces = { 
+		959 960 978 985 986 994 997 999 1005 	}
+	manpower = 2240000
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	history = { 
+		owner = FEI
+		victory_points = { 
+			997 1 		}
+		buildings = { 
+			infrastructure = 2
+			industrial_complex = 2
+		}
 	}
-	manpower=2240000
-	state_category=rural
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
 }

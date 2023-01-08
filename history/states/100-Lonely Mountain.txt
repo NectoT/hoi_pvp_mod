@@ -1,11 +1,13 @@
-state={
-	id=100
-	name="STATE_100"
-	provinces={
-		570 625 
+state = { 
+	id = 100
+	name = STATE_100
+	provinces = { 
+		570 625 	}
+	manpower = 0
+	state_category = wasteland
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	history = { 
+		owner = WVA
 	}
-	manpower=0
-	state_category=wasteland
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
 }

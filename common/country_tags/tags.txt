@@ -1,0 +1,6 @@
+EVA = "East Vallhale.txt"
+WVA = "West Vallhale.txt"
+FEI = "Feirland.txt"
+EGL = "Eglain.txt"
+TOA = "Tanoa.txt"
+TAM = "Tamno.txt"

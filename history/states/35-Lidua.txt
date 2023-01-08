@@ -1,11 +1,24 @@
-state={
-	id=35
-	name="STATE_35"
-	provinces={
-		806 818 824 836 848 
+state = { 
+	id = 35
+	name = STATE_35
+	provinces = { 
+		806 818 824 836 848 	}
+	manpower = 2500000
+	state_category = large_town
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	history = { 
+		owner = EVA
+		victory_points = { 
+			848 15 		}
+		buildings = { 
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 1
+			848 = { 
+				naval_base = 5
+			}
+		}
 	}
-	manpower=2500000
-	state_category=large_town
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
 }

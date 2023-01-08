@@ -1,11 +1,14 @@
-state={
-	id=46
-	name="STATE_46"
-	provinces={
-		683 690 692 716 
+state = { 
+	id = 46
+	name = STATE_46
+	provinces = { 
+		683 690 692 716 	}
+	manpower = 0
+	state_category = wasteland
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	history = { 
+		owner = WVA
 	}
-	manpower=0
-	state_category=wasteland
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	impassable = yes
 }

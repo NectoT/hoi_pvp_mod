@@ -1,11 +1,16 @@
-state={
-	id=12
-	name="STATE_12"
-	provinces={
-		1073 1080 1081 1092 1102 
+state = { 
+	id = 12
+	name = STATE_12
+	provinces = { 
+		1073 1080 1081 1092 1102 	}
+	manpower = 630000
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	state_category = pastoral
+	history = { 
+		owner = EGL
+		buildings = { 
+			infrastructure = 1
+		}
 	}
-	manpower=630000
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	state_category=pastoral
 }

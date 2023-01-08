@@ -1,11 +1,24 @@
-state={
-	id=26
-	name="STATE_26"
-	provinces={
-		195 208 211 212 220 229 230 235 244 
+state = { 
+	id = 26
+	name = STATE_26
+	provinces = { 
+		195 208 211 212 220 229 230 235 244 	}
+	manpower = 3200000
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	history = { 
+		owner = WVA
+		add_core_of = TOA
+		buildings = { 
+			infrastructure = 1
+			industrial_complex = 1
+			235 = { 
+				naval_base = 2
+			}
+		}
 	}
-	manpower=3200000
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	resources = { 
+		rubber = 60
+	}
 }

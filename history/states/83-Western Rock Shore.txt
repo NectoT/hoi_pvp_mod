@@ -1,11 +1,19 @@
-state={
-	id=83
-	name="STATE_83"
-	provinces={
-		431 435 
+state = { 
+	id = 83
+	name = STATE_83
+	provinces = { 
+		431 435 	}
+	manpower = 430000
+	state_category = pastoral
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	history = { 
+		owner = WVA
+		buildings = { 
+			infrastructure = 1
+			431 = { 
+				naval_base = 3
+			}
+		}
 	}
-	manpower=430000
-	state_category=pastoral
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
 }

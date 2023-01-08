@@ -1,11 +1,20 @@
-state={
-	id=24
-	name="STATE_24"
-	provinces={
-		204 216 222 226 228 237 241 247 
+state = { 
+	id = 24
+	name = STATE_24
+	provinces = { 
+		204 216 222 226 228 237 241 247 	}
+	manpower = 6400000
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	history = { 
+		owner = WVA
+		add_core_of = TOA
+		buildings = { 
+			infrastructure = 1
+		}
 	}
-	manpower=6400000
-	state_category=rural
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	resources = { 
+		rubber = 180
+	}
 }

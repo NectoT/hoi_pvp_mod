@@ -1,11 +1,23 @@
-state={
-	id=19
-	name="STATE_19"
-	provinces={
-		925 931 937 942 950 958 
+state = { 
+	id = 19
+	name = STATE_19
+	provinces = { 
+		925 931 937 942 950 958 	}
+	manpower = 2900000
+	state_category = large_city
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	history = { 
+		owner = EGL
+		victory_points = { 
+			931 20 		}
+		buildings = { 
+			infrastructure = 3
+			industrial_complex = 4
+			dockyard = 1
+			937 = { 
+				naval_base = 4
+			}
+		}
 	}
-	manpower=2900000
-	state_category=large_city
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
 }

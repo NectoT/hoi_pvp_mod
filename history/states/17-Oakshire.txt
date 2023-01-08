@@ -1,11 +1,19 @@
-state={
-	id=17
-	name="STATE_17"
-	provinces={
-		961 962 979 987 988 995 998 1000 1006 
+state = { 
+	id = 17
+	name = STATE_17
+	provinces = { 
+		961 962 979 987 988 995 998 1000 1006 	}
+	manpower = 2240000
+	state_category = rural
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+	history = { 
+		owner = EGL
+		victory_points = { 
+			998 1 		}
+		buildings = { 
+			infrastructure = 2
+			industrial_complex = 2
+		}
 	}
-	manpower=2240000
-	state_category=rural
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
 }
