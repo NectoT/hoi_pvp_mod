@@ -13,6 +13,13 @@ characters = {
 			ideology = despotism
 			traits = { unpopular_figurehead }
 		}
+		# corps_commander = {
+		# 	skill = 4
+		# 	attack_skill = 2
+		# 	defense_skill = 4
+		# 	planning_skill = 4
+		# 	logistics_skill = 1
+		# }
 	}
 	WVA_military_guy = {
 		name = WVA_military_guy
@@ -28,5 +35,160 @@ characters = {
 			ideology = despotism
 			traits = { unpopular_figurehead }
 		}
+		# corps_commander = {
+		# 	skill = 4
+		# 	attack_skill = 2
+		# 	defense_skill = 4
+		# 	planning_skill = 4
+		# 	logistics_skill = 1
+		# }
 	}
+
+	FEI_starting_ruler = {
+		name = FEI_starting_ruler
+		portraits = {
+			civilian = {
+				large = GFX_portrait_guatemala_jorge_ubico
+			}
+		}
+		country_leader = {
+			ideology = centrism
+		}
+	}
+	EGL_starting_ruler = {
+		name = EGL_starting_ruler
+		portraits = {
+			civilian = {
+				large = GFX_portrait_costa_rica_ricardo_jiminez_oreamuno
+			}
+		}
+		country_leader = {
+			ideology = centrism
+		}
+	}
+
+	EVA_general_1 = {
+		name = EVA_general_1
+		portraits = {
+			army = {
+				large = GFX_portrait_ENG_richard_oconnor
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	WVA_general_1 = {
+		name = EVA_general_1
+		portraits = {
+			army = {
+				large = GFX_portrait_ENG_harold_alexander
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	FEI_general_1 = {
+		name = FEI_general_1
+		portraits = {
+			army = {
+				large = GFX_portrait_USA_charles_lindbergh
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	EGL_general_1 = {
+		name = EGL_general_1
+		portraits = {
+			army = {
+				large = GFX_portrait_ENG_alan_cunningham
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	FEI_admiral_1 = {
+		name = FEI_admiral_1
+		portraits = {
+			navy = {
+				large = GFX_portrait_ENG_james_fownes_somerville
+			}
+		}
+		navy_leader = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	FEI_admiral_2 = {
+		name = FEI_admiral_2
+		portraits = {
+			navy = {
+				large = GFX_portrait_CAN_ht_bailliegrohman
+			}
+		}
+		navy_leader = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 4
+			coordination_skill = 1
+		}
+	}
+	EGL_admiral_1 = {
+		name = EGL_admiral_1
+		portraits = {
+			navy = {
+				large = GFX_portrait_ENG_bernard_rawlings
+			}
+		}
+		navy_leader = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 2
+		}
+	}
+	EGL_admiral_2 = {
+		name = EGL_admiral_2
+		portraits = {
+			navy = {
+				large = GFX_portrait_ENG_algernon_willis
+			}
+		}
+		navy_leader = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 4
+			coordination_skill = 1
+		}
+	}
+
+	# naval advisors
+	# GFX_CAN_leonard_warren_murray_small
+	# GFX_portrait_ENG_charles_forbes_small
 }

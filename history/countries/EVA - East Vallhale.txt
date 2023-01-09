@@ -42,6 +42,12 @@ if = {
 
 recruit_character = EVA_military_guy
 
+set_party_name = {
+	ideology = fascism
+	long_name = EVA_PARTY_movement_long
+	name = EVA_PARTY_movement
+}
+
 set_popularities = {
 	neutrality = 50
 	democratic = 30
@@ -54,3 +60,26 @@ set_politics = {
 	last_election = "1918.8.23"
 	elections_allowed = no
 }
+
+recruit_character = EVA_general_1
+
+recruit_character = EVA_theorist_1
+recruit_character = EVA_theorist_2
+recruit_character = EVA_theorist_3
+recruit_character = EVA_political_1
+recruit_character = EVA_political_2
+recruit_character = EVA_political_3
+recruit_character = EVA_political_4
+recruit_character = EVA_political_5
+recruit_character = EVA_army_chief_1
+recruit_character = EVA_army_chief_2
+recruit_character = EVA_army_chief_3
+recruit_character = EVA_air_chief_1
+recruit_character = EVA_air_chief_2
+recruit_character = EVA_navy_chief_1
+recruit_character = EVA_navy_chief_2
+recruit_character = EVA_high_command_1
+recruit_character = EVA_high_command_2
+recruit_character = EVA_high_command_3
+recruit_character = EVA_high_command_4
+recruit_character = EVA_high_command_5

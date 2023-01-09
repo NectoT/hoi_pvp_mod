@@ -1,0 +1,271 @@
+characters = {
+	EGL_theorist_1 = {
+		name = EGL_theorist_1
+		portraits = {
+			army = {
+				small = GFX_portrait_SPA_juan_vigon_suero_diaz_small
+			}
+		}
+		advisor = {
+			slot = theorist
+			ledger = military
+			idea_token = EGL_theorist_1
+			traits = { military_theorist }
+		}
+	}
+	EGL_theorist_2 = {
+		name = EGL_theorist_2
+		portraits = {
+			army = {
+				small = GFX_portrait_SPR_joakin_egia_unzueta_small
+			}
+		}
+		advisor = {
+			slot = theorist
+			ledger = navy
+			idea_token = EGL_theorist_2
+			traits = { naval_theorist }
+		}
+	}
+	EGL_theorist_3 = {
+		name = EGL_theorist_3
+		portraits = {
+			army = {
+				small = GFX_portrait_SPA_ricardo_rada_small
+			}
+		}
+		advisor = {
+			slot = theorist
+			ledger = air
+			idea_token = EGL_theorist_3
+			traits = { dive_bomber }
+		}
+	}
+	EGL_army_chief_1 = {
+		name = EGL_army_chief_1
+		portraits = {
+			army = {
+				small = GFX_portrait_USA_alexander_vandegrift_small
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = EGL_army_chief_1
+			traits = { army_chief_drill_2 }
+		}
+	}
+	EGL_army_chief_2 = {
+		name = EGL_army_chief_2
+		portraits = {
+			army = {
+				small = GFX_portrait_GER_wilhelm_ritter_von_thoma_small
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = EGL_army_chief_2
+			traits = { army_chief_defensive_1 }
+		}
+	}
+	EGL_army_chief_3 = {
+		name = EGL_army_chief_3
+		portraits = {
+			army = {
+				small = GFX_portrait_GER_georghans_reinhardt_small
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = EGL_army_chief_3
+			traits = { army_chief_offensive_1 }
+		}
+	}
+	EGL_navy_chief_1 = {
+		name = EGL_navy_chief_1
+		portraits = {
+			army = {
+				small = GFX_NZL_peter_phipps_small
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = EGL_navy_chief_1
+			traits = { navy_chief_decisive_battle_2 }
+		}
+	}
+	EGL_navy_chief_2 = {
+		name = EGL_navy_chief_2
+		portraits = {
+			army = {
+				small = GFX_SAF_guy_halifax_small
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = EGL_navy_chief_2
+			traits = { navy_chief_naval_aviation_2 }
+		}
+	}
+	EGL_air_chief_1 = {
+		name = EGL_air_chief_1
+		portraits = {
+			army = {
+				small = GFX_portrait_USA_russell_hartle_small
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = EGL_air_chief_1
+			traits = { air_chief_night_operations_1 }
+		}
+	}
+	EGL_air_chief_2 = {
+		name = EGL_air_chief_2
+		portraits = {
+			army = {
+				small = GFX_portrait_USA_leslie_mcnair_small
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = EGL_air_chief_2
+			traits = { air_chief_ground_support_1 }
+		}
+	}
+	EGL_high_command_1 = {
+		name = EGL_high_command_1
+		gender = female
+		portraits = {
+			army = {
+				small = GFX_RAJ_lakshmi_sahgal_small
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = EGL_high_command_1
+			traits = { army_regrouping_2 }
+		}
+	}
+	EGL_high_command_2 = {
+		name = EGL_high_command_2
+		portraits = {
+			army = {
+				small = GFX_NZL_bernard_freyberg_small
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = air
+			idea_token = EGL_high_command_2
+			traits = { air_bomber_interception_2 }
+		}
+	}
+	EGL_high_command_3 = {
+		name = EGL_high_command_3
+		portraits = {
+			army = {
+				small = GFX_NZL_peter_phipps_small
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			idea_token = EGL_high_command_3
+			traits = { air_naval_strike_2 }
+		}
+	}
+	EGL_high_command_4 = {
+		name = EGL_high_command_4
+		portraits = {
+			army = {
+				small = GFX_CAN_harry_dewolf_small
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			idea_token = EGL_high_command_4
+			traits = { navy_anti_submarine_2 }
+		}
+	}
+	EGL_high_command_5 = {
+		name = EGL_high_command_5
+		portraits = {
+			army = {
+				small = GFX_portrait_romania_constantin_sanatescu_small
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = EGL_high_command_5
+			traits = { army_concealment_2 }
+		}
+	}
+	EGL_political_1 = {
+		name = EGL_political_1
+		portraits = {
+			army = {
+				small = GFX_portrait_costa_rica_ricardo_jiminez_oreamuno_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = EGL_political_1
+			traits = { economist }
+		}
+	}
+	EGL_political_2 = {
+		name = EGL_political_2
+		portraits = {
+			army = {
+				small = GFX_portrait_EST_konstantin_pats_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = EGL_political_2
+			traits = { appeaser }
+		}
+	}
+	EGL_political_3 = {
+		name = EGL_political_3
+		portraits = {
+			army = {
+				small = GFX_portrait_Michael_Costello_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = EGL_political_3
+			traits = { propaganda_expert }
+		}
+	}
+	EGL_political_4 = {
+		name = EGL_political_4
+		portraits = {
+			army = {
+				small = GFX_portrait_ITA_luigi_einaudi_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = EGL_political_4
+			traits = { technocrat }
+		}
+	}
+	EGL_political_5 = {
+		name = EGL_political_5
+		portraits = {
+			army = {
+				small = GFX_portrait_panama_harmodio_arias_madrid_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = EGL_political_5
+			traits = { silent_workhorse }
+		}
+	}
+}

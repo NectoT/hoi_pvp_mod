@@ -10,6 +10,7 @@ set_technology = {
 	tech_field_hospital = 1
 	infantry_weapons = 1
 	gw_artillery = 1
+	basic_decryption = 1
 }
 
 load_oob = "FEI_1936"
@@ -44,6 +45,8 @@ if = {
 	}
 }
 
+recruit_character = FEI_starting_ruler
+
 set_popularities = {
 	neutrality = 70
 	democratic = 10
@@ -58,4 +61,27 @@ set_politics = {
 	elections_allowed = yes
 }
 
-# set_country_leader_ideology = oligarchism
+recruit_character = FEI_general_1
+recruit_character = FEI_admiral_1
+recruit_character = FEI_admiral_2
+
+recruit_character = FEI_theorist_1
+recruit_character = FEI_theorist_2
+recruit_character = FEI_theorist_3
+recruit_character = FEI_political_1
+recruit_character = FEI_political_2
+recruit_character = FEI_political_3
+recruit_character = FEI_political_4
+recruit_character = FEI_political_5
+recruit_character = FEI_army_chief_1
+recruit_character = FEI_army_chief_2
+recruit_character = FEI_army_chief_3
+recruit_character = FEI_air_chief_1
+recruit_character = FEI_air_chief_2
+recruit_character = FEI_navy_chief_1
+recruit_character = FEI_navy_chief_2
+recruit_character = FEI_high_command_1
+recruit_character = FEI_high_command_2
+recruit_character = FEI_high_command_3
+recruit_character = FEI_high_command_4
+recruit_character = FEI_high_command_5

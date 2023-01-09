@@ -54,3 +54,26 @@ set_politics = {
 	last_election = "1917.8.15"
 	elections_allowed = no
 }
+
+recruit_character = WVA_general_1
+
+recruit_character = WVA_theorist_1
+recruit_character = WVA_theorist_2
+recruit_character = WVA_theorist_3
+recruit_character = WVA_political_1
+recruit_character = WVA_political_2
+recruit_character = WVA_political_3
+recruit_character = WVA_political_4
+recruit_character = WVA_political_5
+recruit_character = WVA_army_chief_1
+recruit_character = WVA_army_chief_2
+recruit_character = WVA_army_chief_3
+recruit_character = WVA_air_chief_1
+recruit_character = WVA_air_chief_2
+recruit_character = WVA_navy_chief_1
+recruit_character = WVA_navy_chief_2
+recruit_character = WVA_high_command_1
+recruit_character = WVA_high_command_2
+recruit_character = WVA_high_command_3
+recruit_character = WVA_high_command_4
+recruit_character = WVA_high_command_5

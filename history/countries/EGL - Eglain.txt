@@ -44,12 +44,25 @@ if = {
 	}
 }
 
+set_party_name = {
+	ideology = communism
+	long_name = EGL_PARTY_workmen_long
+	name = EGL_PARTY_workmen
+}
+set_party_name = {
+	ideology = fascism
+	long_name = EGL_PARTY_movement_long
+	name = EGL_PARTY_movement
+}
+
 set_popularities = {
 	neutrality = 70
 	democratic = 10
 	communism = 10
 	fascism = 10
 }
+
+recruit_character = EGL_starting_ruler
 
 set_politics = {
 	ruling_party = neutrality
@@ -58,4 +71,27 @@ set_politics = {
 	elections_allowed = yes
 }
 
-# set_country_leader_ideology = oligarchism
+recruit_character = EGL_general_1
+recruit_character = EGL_admiral_1
+recruit_character = EGL_admiral_2
+
+recruit_character = EGL_theorist_1
+recruit_character = EGL_theorist_2
+recruit_character = EGL_theorist_3
+recruit_character = EGL_political_1
+recruit_character = EGL_political_2
+recruit_character = EGL_political_3
+recruit_character = EGL_political_4
+recruit_character = EGL_political_5
+recruit_character = EGL_army_chief_1
+recruit_character = EGL_army_chief_2
+recruit_character = EGL_army_chief_3
+recruit_character = EGL_air_chief_1
+recruit_character = EGL_air_chief_2
+recruit_character = EGL_navy_chief_1
+recruit_character = EGL_navy_chief_2
+recruit_character = EGL_high_command_1
+recruit_character = EGL_high_command_2
+recruit_character = EGL_high_command_3
+recruit_character = EGL_high_command_4
+recruit_character = EGL_high_command_5

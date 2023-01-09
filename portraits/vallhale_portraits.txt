@@ -6,6 +6,7 @@ EVA = {
 				"gfx/leaders/ENG/portrait_Britain_Generic_2.dds"
 				"gfx/leaders/Europe/portrait_europe_generic_4.dds"
 				"gfx/leaders/Europe/portrait_europe_generic_5.dds"
+				"gfx/leaders/ENG/Portrait_Britain_Andrew_Cunningham.dds"
 			}
 		}
 		neutrality = {
@@ -41,6 +42,7 @@ WVA = {
 				"gfx/leaders/ENG/portrait_Britain_Generic_2.dds"
 				"gfx/leaders/Europe/portrait_europe_generic_4.dds"
 				"gfx/leaders/Europe/portrait_europe_generic_5.dds"
+				"gfx/leaders/ENG/Portrait_Britain_Andrew_Cunningham.dds"
 			}
 		}
 		neutrality = {
