@@ -97,7 +97,7 @@ for id in [15, 14]:
 capital_buildings = {
     'infrastructure': 4,
     'arms_factory': 1,
-    'industrial_complex': 5
+    'industrial_complex': 3
 }
 
 big_city_buildings = {
@@ -118,8 +118,8 @@ set_buildings(states[33], capital_buildings)
 
 set_buildings(states[34], {
     'infrastructure': 3,
-    'arms_factory': 2,
-    'industrial_complex': 2,
+    'arms_factory': 1,
+    'industrial_complex': 1,
     'dockyard': 1,
     839: {
         'naval_base': 5
@@ -128,8 +128,8 @@ set_buildings(states[34], {
 
 set_buildings(states[35], {
     'infrastructure': 3,
-    'arms_factory': 2,
-    'industrial_complex': 2,
+    'arms_factory': 1,
+    'industrial_complex': 1,
     'dockyard': 1,
     848: {
         'naval_base': 5
@@ -180,7 +180,6 @@ set_buildings(states[84], {
 
 set_buildings(states[80], {
     'infrastructure': 1,
-    'industrial_complex': 1,
     'dockyard': 1,
     445: {
         'naval_base': 5
@@ -188,7 +187,6 @@ set_buildings(states[80], {
 })
 set_buildings(states[81], {
     'infrastructure': 1,
-    'industrial_complex': 1,
     'dockyard': 1,
     446: {
         'naval_base': 5
@@ -204,12 +202,12 @@ for id in [78, 79]:
 
 set_buildings(states[58], {
     'infrastructure': 2,
-    'industrial_complex': 4,
+    'industrial_complex': 1,
     'dockyard': 1
 })
 set_buildings(states[59], {
     'infrastructure': 2,
-    'industrial_complex': 4,
+    'industrial_complex': 1,
     'dockyard': 1
 })
 
@@ -226,21 +224,20 @@ set_buildings(states[31], {
 
 for id in [70, 71, 66, 67]:
     set_buildings(states[id], {
-        'infrastructure': 3,
-        'industrial_complex': 1,
+        'infrastructure': 3
     })
 
 for id in [36, 37]:
     set_buildings(states[id], {
         'infrastructure': 3,
-        'industrial_complex': 2,
+        'industrial_complex': 1,
         'arms_factory': 2
     })
 
 for id in [42, 87]:
     set_buildings(states[id], {
         'infrastructure': 3,
-        'arms_factory': 3
+        'arms_factory': 1
     })
 
 for id in [72, 73, 74, 75, 76, 77, 38]:
@@ -251,7 +248,7 @@ for id in [72, 73, 74, 75, 76, 77, 38]:
 for id in [54, 55]:
     set_buildings(states[id], {
         'infrastructure': 3,
-        'industrial_complex': 3
+        'industrial_complex': 2
     })
 
 for id in [94, 95]:
@@ -271,7 +268,7 @@ for id in [52, 53]:
 for id in [50, 51]:
     set_buildings(states[id], {
         'infrastructure': 2,
-        'industrial_complex': 3,
+        'industrial_complex': 2,
     })
 
 for id in [92, 93, 96, 97, 64, 65, 38, 39]:
@@ -309,14 +306,12 @@ set_buildings(states[57], {
 
 set_buildings(states[26], {
     'infrastructure': 1,
-    'industrial_complex': 1,
     235: {
         'naval_base': 2
     }
 })
 set_buildings(states[29], {
     'infrastructure': 1,
-    'industrial_complex': 1,
     214: {
         'naval_base': 2
     }

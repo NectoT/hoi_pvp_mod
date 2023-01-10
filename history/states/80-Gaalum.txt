@@ -13,7 +13,6 @@ state = {
 			445 5 		}
 		buildings = { 
 			infrastructure = 1
-			industrial_complex = 1
 			dockyard = 1
 			445 = { 
 				naval_base = 5

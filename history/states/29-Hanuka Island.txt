@@ -12,7 +12,6 @@ state = {
 		add_core_of = TAM
 		buildings = { 
 			infrastructure = 1
-			industrial_complex = 1
 			214 = { 
 				naval_base = 2
 			}
