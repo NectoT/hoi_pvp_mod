@@ -4,6 +4,8 @@ def parse_file(path, name)->dict:
     regex = re.compile("\S+")
     r_comments = re.compile("#.*")
 
+    keywords = {}
+
     with open(path, "r") as file:
         raw_text = file.read()
     filtered_text = raw_text.replace('"', "")
@@ -14,7 +16,7 @@ def parse_file(path, name)->dict:
     filtered_text = r_comments.sub("", filtered_text)
     regex_words = regex.findall(filtered_text)
 
-    contents = {'_name': name}
+    contents = {'_name': name, '_keywords': {}}
     stack = [contents]
     current_keyword = None
     has_assignment = False
@@ -26,13 +28,20 @@ def parse_file(path, name)->dict:
         
         if word == "{":
             new_dict = {}
+            new_dict['_keywords'] = {}
             stack[len(stack) - 1][current_keyword] = new_dict
             stack.append(new_dict)
             has_assignment = False
         elif word == "}":
+            stack[-1].pop('_keywords')
             stack.pop()
         elif not has_assignment:
             current_keyword = word
+            if current_keyword not in stack[-1]['_keywords']:
+                stack[-1]['_keywords'][current_keyword] = 1
+            else:
+                stack[-1]['_keywords'][current_keyword] += 1
+                current_keyword = current_keyword + '!' + str(stack[-1]['_keywords'][current_keyword])
             stack[len(stack) - 1][current_keyword] = None
         else:
             stack[len(stack) - 1][current_keyword] = word
