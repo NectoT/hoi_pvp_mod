@@ -1,0 +1,126 @@
+spriteTypes = {
+	spriteType = {
+		name = GFX_focus_elections
+		texturefile = interface/focuses/elections.dds
+	}
+	
+	spriteType = {
+		name = GFX_focus_rigged_elections
+		texturefile = interface/focuses/election_fraud.dds
+	}
+	
+	spriteType = {
+		name = GFX_focus_fair_elections
+		texturefile = interface/focuses/fair_elections.dds
+	}
+
+	spriteType = {
+		name = GFX_focus_country_socialism
+		texturefile = interface/focuses/country_socialism.dds
+	}
+
+	spriteType = {
+		name = GFX_focus_pioneers
+		texturefile = interface/focuses/pioneers.dds
+	}
+
+	spriteType = {
+		name = GFX_focus_fund_communists
+		texturefile = interface/focuses/fund_communists.dds
+	}
+
+	spriteType = {
+		name = GFX_focus_red_wave
+		texturefile = interface/focuses/red_wave.dds
+	}
+
+	spriteType = {
+		name = GFX_focus_soup_kitchen
+		texturefile = interface/focuses/soup_kitchen.dds
+	}
+
+	spriteType = {
+		name = GFX_focus_purpleshirts
+		texturefile = interface/focuses/purpleshirts.dds
+	}
+
+	spriteType = {
+		name = GFX_focus_new_constitution
+		texturefile = interface/focuses/adopt_new_constitution.dds
+	}
+
+	spriteType = {
+		name = GFX_focus_communist_manifesto
+		texturefile = interface/focuses/communist_manifesto.dds
+	}
+
+	spriteType = {
+		name = GFX_focus_commisars
+		texturefile = interface/focuses/Commisars.dds
+	}
+
+	spriteType = {
+		name = GFX_focus_cosmopolitanism
+		texturefile = interface/focuses/cosmopolitanism.dds
+	}
+
+	spriteType = {
+		name = GFX_focus_appease_neutrality
+		texturefile = interface/focuses/appease_neutrality.dds
+	}
+
+	spriteType = {
+		name = GFX_focus_appease_democratic
+		texturefile = interface/focuses/appease_democratic.dds
+	}
+
+	spriteType = {
+		name = GFX_focus_urban_planning_1
+		texturefile = interface/focuses/urban_planning_1.dds
+	}
+
+	spriteType = {
+		name = GFX_focus_crush_the_opposition
+		texturefile = interface/focuses/crush_the_opposition.dds
+	}
+
+	spriteType = {
+		name = GFX_focus_patriotism
+		texturefile = interface/focuses/patriotism2.dds
+	}
+
+	spriteType = {
+		name = GFX_focus_befriend_industry_magnates
+		texturefile = interface/focuses/befriend_industry.dds
+	}
+
+	spriteType = {
+		name = GFX_focus_bulwark_of_democracy
+		texturefile = interface/focuses/bulwark_of_democracy.dds
+	}
+
+	spriteType = {
+		name = GFX_focus_hold_war_games
+		texturefile = interface/focuses/war_games.dds
+	}
+
+	spriteType = {
+		name = GFX_focus_indirect_warfare
+		texturefile = interface/focuses/indirect_warfare.dds
+	}
+
+	spriteType = {
+		name = GFX_focus_embrace_stagnation
+		texturefile = interface/focuses/embrace_stagnation.dds
+	}
+
+	spriteType = {
+		name = GFX_focus_treasury_bonds
+		texturefile = interface/focuses/treasury_bonds.dds
+	}
+
+	spriteType = {
+		name = GFX_focus_urban_development
+		texturefile = interface/focuses/urban_development.dds
+	}
+}

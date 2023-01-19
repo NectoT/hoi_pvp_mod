@@ -1,0 +1,1052 @@
+spriteTypes = { 
+	spriteType = { 
+		name = GFX_focus_elections_shine
+		texturefile = interface/focuses/elections.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/elections.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/elections.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = GFX_focus_rigged_elections_shine
+		texturefile = interface/focuses/election_fraud.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/election_fraud.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/election_fraud.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = GFX_focus_fair_elections_shine
+		texturefile = interface/focuses/fair_elections.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/fair_elections.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/fair_elections.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = GFX_focus_country_socialism_shine
+		texturefile = interface/focuses/country_socialism.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/country_socialism.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/country_socialism.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = GFX_focus_pioneers_shine
+		texturefile = interface/focuses/pioneers.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/pioneers.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/pioneers.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = GFX_focus_fund_communists_shine
+		texturefile = interface/focuses/fund_communists.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/fund_communists.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/fund_communists.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = GFX_focus_red_wave_shine
+		texturefile = interface/focuses/red_wave.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/red_wave.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/red_wave.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = GFX_focus_soup_kitchen_shine
+		texturefile = interface/focuses/soup_kitchen.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/soup_kitchen.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/soup_kitchen.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = GFX_focus_purpleshirts_shine
+		texturefile = interface/focuses/purpleshirts.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/purpleshirts.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/purpleshirts.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = GFX_focus_new_constitution_shine
+		texturefile = interface/focuses/adopt_new_constitution.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/adopt_new_constitution.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/adopt_new_constitution.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = GFX_focus_communist_manifesto_shine
+		texturefile = interface/focuses/communist_manifesto.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/communist_manifesto.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/communist_manifesto.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = GFX_focus_commisars_shine
+		texturefile = interface/focuses/Commisars.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/Commisars.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/Commisars.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = GFX_focus_cosmopolitanism_shine
+		texturefile = interface/focuses/cosmopolitanism.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/cosmopolitanism.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/cosmopolitanism.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = GFX_focus_appease_neutrality_shine
+		texturefile = interface/focuses/appease_neutrality.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/appease_neutrality.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/appease_neutrality.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = GFX_focus_appease_democratic_shine
+		texturefile = interface/focuses/appease_democratic.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/appease_democratic.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/appease_democratic.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = GFX_focus_urban_planning_1_shine
+		texturefile = interface/focuses/urban_planning_1.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/urban_planning_1.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/urban_planning_1.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = GFX_focus_crush_the_opposition_shine
+		texturefile = interface/focuses/crush_the_opposition.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/crush_the_opposition.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/crush_the_opposition.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = GFX_focus_patriotism_shine
+		texturefile = interface/focuses/patriotism2.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/patriotism2.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/patriotism2.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = GFX_focus_befriend_industry_magnates_shine
+		texturefile = interface/focuses/befriend_industry.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/befriend_industry.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/befriend_industry.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = GFX_focus_bulwark_of_democracy_shine
+		texturefile = interface/focuses/bulwark_of_democracy.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/bulwark_of_democracy.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/bulwark_of_democracy.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = GFX_focus_hold_war_games_shine
+		texturefile = interface/focuses/war_games.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/war_games.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/war_games.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = GFX_focus_indirect_warfare_shine
+		texturefile = interface/focuses/indirect_warfare.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/indirect_warfare.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/indirect_warfare.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = GFX_focus_embrace_stagnation_shine
+		texturefile = interface/focuses/embrace_stagnation.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/embrace_stagnation.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/embrace_stagnation.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = GFX_focus_treasury_bonds_shine
+		texturefile = interface/focuses/treasury_bonds.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/treasury_bonds.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/treasury_bonds.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = { 
+		name = GFX_focus_urban_development_shine
+		texturefile = interface/focuses/urban_development.dds
+		effectFile = gfx/FX/buttonstate.lua
+		animation = { 
+			animationmaskfile = interface/focuses/urban_development.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		animation = { 
+			animationmaskfile = interface/focuses/urban_development.dds
+			animationtexturefile = gfx/interface/goals/shine_overlay.dds
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { 
+				x = 0.0
+				y = 0.0
+			}
+			animationtexturescale = { 
+				x = 1.0
+				y = 1.0
+			}
+		}
+		legacy_lazy_load = no
+	}
+}

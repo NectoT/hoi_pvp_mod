@@ -1,0 +1,86 @@
+spriteTypes = {
+	spriteType = {
+		name = GFX_idea_state_media
+		texturefile = interface/ideas/state_media.dds
+	}
+	spriteType = {
+		name = GFX_idea_limited_media
+		texturefile = interface/ideas/limited_media.dds
+	}
+	spriteType = {
+		name = GFX_idea_radicalism
+		texturefile = interface/ideas/radicalism.dds
+	}
+	spriteType = {
+		name = GFX_idea_five_year_plan
+		texturefile = interface/ideas/five_year_plan.dds
+	}
+	spriteType = {
+		name = GFX_idea_communist_workers
+		texturefile = interface/ideas/communist_workers.dds
+	}
+	spriteType = {
+		name = GFX_idea_communist_education
+		texturefile = interface/ideas/communist_education.dds
+	}
+	spriteType = {
+		name = GFX_idea_communist_pensions
+		texturefile = interface/ideas/communist_pensions.dds
+	}
+	spriteType = {
+		name = GFX_idea_soup_kitchen
+		texturefile = interface/ideas/idea_soup_kitchen.dds
+	}
+	spriteType = {
+		name = GFX_idea_communist_theorists
+		texturefile = interface/ideas/communist_theorists.dds
+	}
+	spriteType = {
+		name = GFX_idea_cosmopolitanism
+		texturefile = interface/ideas/cosmopolitanism_idea.dds
+	}
+	spriteType = {
+		name = GFX_idea_patriotism
+		texturefile = interface/ideas/patriotism_idea.dds
+	}
+	spriteType = {
+		name = GFX_idea_peoples_commisars
+		texturefile = interface/ideas/people_commisariat.dds
+	}
+	spriteType = {
+		name = GFX_idea_political_commisars
+		texturefile = interface/ideas/political_commisariat.dds
+	}
+	spriteType = {
+		name = GFX_idea_military_commisars
+		texturefile = interface/ideas/military_commisariat.dds
+	}
+	spriteType = {
+		name = GFX_idea_magnates_support
+		texturefile = interface/ideas/magnates_support.dds
+	}
+	spriteType = {
+		name = GFX_idea_indirect_approach
+		texturefile = interface/ideas/idea_indirect_approach.dds
+	}
+	spriteType = {
+		name = GFX_idea_colonial_control
+		texturefile = interface/ideas/idea_colonial_control.dds
+	}
+	spriteType = {
+		name = GFX_idea_stagnation_shattered
+		texturefile = interface/ideas/stagnation_shattered.dds
+	}
+	spriteType = {
+		name = GFX_idea_treasury_bonds
+		texturefile = interface/ideas/idea_treasury_bonds.dds
+	}
+	spriteType = {
+		name = GFX_idea_active_development
+		texturefile = interface/ideas/active_development.dds
+	}
+	spriteType = {
+		name = GFX_idea_army_training
+		texturefile = interface/ideas/army_training.dds
+	}
+}
