@@ -5,5 +5,6 @@ tags={
 name="Pvp"
 supported_version="1.12.7"
 replace_path="history/countries"
+replace_path="common/bookmarks"
 replace_path="history/states"
 replace_path="map"

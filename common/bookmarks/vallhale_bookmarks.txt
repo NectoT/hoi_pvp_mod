@@ -1,0 +1,46 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = EVA
+		default = yes
+
+		EVA = {
+			ideology = neutrality
+			minor = no
+
+			ideas = {
+				unpopular_figurehead
+			}
+		}
+
+		WVA = {
+			ideology = neutrality
+			minor = no
+
+			ideas = {
+				unpopular_figurehead
+			}
+		}
+
+		EGL = {
+			ideology = neutrality
+			minor = no
+
+			ideas = {
+				unpopular_figurehead
+			}
+		}
+
+		FEI = {
+			ideology = neutrality
+			minor = no
+		}
+
+		effect = { 
+			randomize_weather = 9184
+		}
+	}
+}
