@@ -45,6 +45,11 @@ if = {
 	}
 }
 
+add_equipment_to_stockpile = {
+	type = convoy
+	amount = 50
+}
+
 recruit_character = FEI_starting_ruler
 
 set_popularities = {

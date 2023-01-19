@@ -40,7 +40,18 @@ if = {
 	}
 }
 
+add_equipment_to_stockpile = {
+	type = convoy
+	amount = 50
+}
+
 recruit_character = WVA_military_guy
+
+set_party_name = {
+	ideology = neutrality
+	long_name = WVA_PARTY_neutrality_long
+	name = WVA_PARTY_neutrality
+}
 
 set_popularities = {
 	neutrality = 50

@@ -44,6 +44,11 @@ if = {
 	}
 }
 
+add_equipment_to_stockpile = {
+	type = convoy
+	amount = 50
+}
+
 set_party_name = {
 	ideology = communism
 	long_name = EGL_PARTY_workmen_long
