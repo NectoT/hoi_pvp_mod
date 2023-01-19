@@ -88,3 +88,5 @@ recruit_character = WVA_high_command_2
 recruit_character = WVA_high_command_3
 recruit_character = WVA_high_command_4
 recruit_character = WVA_high_command_5
+
+add_ideas = state_media

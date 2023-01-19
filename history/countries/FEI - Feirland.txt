@@ -53,8 +53,8 @@ add_equipment_to_stockpile = {
 recruit_character = FEI_starting_ruler
 
 set_popularities = {
-	neutrality = 70
-	democratic = 10
+	neutrality = 50
+	democratic = 30
 	communism = 10
 	fascism = 10
 }
@@ -90,3 +90,5 @@ recruit_character = FEI_high_command_2
 recruit_character = FEI_high_command_3
 recruit_character = FEI_high_command_4
 recruit_character = FEI_high_command_5
+
+add_ideas = state_media
