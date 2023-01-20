@@ -187,6 +187,26 @@ characters = {
 			coordination_skill = 1
 		}
 	}
+	
+	communist_theorist_1 = {
+		name = communist_theorist_1
+		portraits = {
+			civilian = {
+				small = GFX_idea_tur_rauf_orbay
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = communist_theorist_1
+			traits = {
+				marxist_fundamentalist
+			}
+
+			available = {
+				has_government = communism
+			}
+		}
+	}
 
 	# naval advisors
 	# GFX_CAN_leonard_warren_murray_small
