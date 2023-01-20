@@ -102,3 +102,7 @@ recruit_character = EGL_high_command_4
 recruit_character = EGL_high_command_5
 
 add_ideas = state_media
+
+EVA = {
+	save_event_target_as = country_enemy
+}

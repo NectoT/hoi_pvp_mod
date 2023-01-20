@@ -1,0 +1,34 @@
+category_military_exercises = {
+	decision_land_military_exercise = {
+		complete_effect = {
+			army_experience = 30
+			air_experience = 15
+			add_named_threat = {
+				threat = 5
+				name = threat_military_exercises
+			}
+		}
+		cost = 90
+		days_remove = 90
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	decision_naval_military_exercise = {
+		complete_effect = {
+			navy_experience = 30
+			air_experience = 15
+			add_named_threat = {
+				threat = 5
+				name = threat_military_exercises
+			}
+		}
+		cost = 90
+		days_remove = 90
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+}

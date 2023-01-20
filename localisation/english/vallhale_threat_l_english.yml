@@ -1,0 +1,9 @@
+﻿l_english:
+threat_fascist_rule: "Fascist regime came into power in [THIS.GetNonIdeologyName]"
+threat_communist_rule: "Communist regime came into power in [THIS.GetNonIdeologyName]"
+threat_living_space_question: "[THIS.GetAdjective] government claimed neighbouring territories"
+threat_war_against_imperialism: "[THIS.GetName] called for war against imperialists"
+threat_imperial_war: "[THIS.GetName] recalled old claims on territories belonging to their neighbour"
+threat_preventive_strike: "[THIS.GetName] passed the law granting the right for a preventive strike on 'unfriendly countries'"
+threat_military_exercises_major: "Large military exercises were held by [THIS.GetName]"
+threat_military_exercises: "Military exercises were held by [THIS.GetName]"

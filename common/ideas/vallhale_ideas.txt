@@ -1,0 +1,258 @@
+ideas = {
+	country = {
+		state_media = {
+			modifier = {
+				drift_defence_factor = 0.2
+				political_power_gain = -0.5
+			}
+		}
+
+		limited_media = {
+			modifier = {
+				stability_factor = -0.05
+				democratic_drift = 0.05
+			}
+		}
+
+		uncensored_media = {
+			modifier = {
+				stability_factor = -0.1
+				democratic_drift = 0.05
+				fascism_drift = 0.05
+				communism_drift = 0.05
+				political_power_gain = 0.5
+			}
+			picture = limited_media
+		}
+
+		radicalism = {
+			modifier = {
+				stability_factor = -0.1
+				fascism_drift = 0.05
+				communism_drift = 0.05
+			}
+		}
+
+		five_year_plan = {
+			modifier = {
+				production_speed_infrastructure_factor = 0.15
+				production_speed_industrial_complex_factor = 0.15
+				production_speed_arms_factory_factor = 0.1
+			}
+		}
+
+		international_legion = {
+			modifier = {
+				recruitable_population_factor = 0.3
+				justify_war_goal_time = -0.4
+			}
+			picture = generic_communist_army
+		}
+
+		pioneer_movement = {
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+			picture = FRA_national_mobilization_focus
+		}
+
+		women_integrated = {
+			modifier = {
+				consumer_goods_factor = -0.05
+				conscription_factor = 0.1
+				female_random_army_leader_chance = 0.3
+			}
+			# change the icon later
+			picture = generic_women_in_the_army
+		}
+
+		communist_influence = {
+			modifier = {
+				communism_drift = 0.2
+			}
+			picture = generic_communism_drift_bonus
+		}
+
+		communist_influence_small = {
+			modifier = {
+				communism_drift = 0.1
+			}
+			picture = generic_communism_drift_bonus
+		}
+
+		eight_hour_day = {
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+			picture = communist_workers
+		}
+
+		communist_free_education = {
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+			picture = communist_education
+		}
+
+		communist_unenmployment_pensions = {
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+			picture = communist_pensions
+		}
+
+		soup_kitchen = {
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		purpleshirts = {
+			modifier = {
+				fascism_drift = 0.05
+				training_time_army_factor = -0.1
+			}
+		}
+
+		communist_theorists = {
+			modifier = {
+				communism_drift = 0.05
+				army_morale_factor = 0.2
+			}
+		}
+
+		cosmopolitanism = {
+			modifier = {
+				send_volunteer_factor = 0.5
+				required_garrison_factor = -0.2
+			}
+		}
+
+		patriotism = {
+			modifier = {
+				army_core_defence_factor = 0.15
+			}
+		}
+
+		the_peoples_leader = {
+			cancel = {
+				has_war = yes
+			}
+			modifier = {
+				# change this later to a balanced value
+				war_support_weekly = 0.01
+				consumer_goods_factor = -0.2
+			}
+			picture = generic_fascism_drift_2
+		}
+
+		fascist_investors = {
+			modifier = {
+				fascism_drift = 0.2
+				consumer_goods_factor = -0.05
+			}
+			picture = generic_fascism_drift_bonus
+		}
+
+		peoples_commisars_rotated = {
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
+			picture = peoples_commisars
+		}
+		military_commisars_rotated = {
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.1
+			}
+			picture = military_commisars
+		}
+		political_commisars_rotated = {
+			modifier = {
+				army_morale_factor = 0.1
+			}
+			picture = political_commisars
+		}
+
+		magnates_support = {
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				production_speed_arms_factory_factor = 0.2
+			}
+		}
+
+		idea_indirect_approach = {
+			modifier = {
+				experience_gain_air_factor = 0.3
+				experience_gain_navy_factor = 0.3
+			}
+			picture = indirect_approach
+		}
+
+		idea_land_warfare = {
+			modifier = {
+				experience_gain_army_factor = 0.4
+			}
+			picture = generic_women_in_the_army
+		}
+
+		stagnation_shattered = {
+			cancel = {
+				has_war = no
+			}
+
+			modifier = {
+				stability_weekly = -0.007
+			}
+		}
+
+		land_of_stability = {
+			cancel = {
+				has_war = yes
+			}
+
+			modifier = {
+				stability_weekly = 0.01
+			}
+
+			on_remove = {
+				swap_ideas = {
+					remove_idea = land_of_stability
+					add_idea = stagnation_shattered
+				}
+			}
+
+			picture = ROM_king_carol_ii_hedonist
+		}
+
+		idea_military_planning = {
+			picture = CZE_planning_bonus
+			modifier = {
+				army_leader_start_planning_level = 1
+				max_planning_factor = 0.2
+			}
+		}
+
+		treasury_bonds = {
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		nation_mobilized = {
+			picture = FRA_national_mobilization_focus
+			modifier = {
+				army_morale_factor = 0.4
+				army_attack_factor = 0.1
+				war_support_factor = 0.5
+			}
+		}
+
+		army_training = {
+			modifier = {
+				experience_gain_army_factor = 0.7
+				experience_gain_navy_factor = 0.7
+				experience_gain_air_factor = 0.7
+			}
+		}
+	}
+}

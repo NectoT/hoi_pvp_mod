@@ -1,0 +1,491 @@
+add_namespace = event_workers_march
+
+add_namespace = event_communism_influence
+add_namespace = event_red_wave
+add_namespace = event_communist_manifesto
+
+add_namespace = event_protest_eight_hour_day
+add_namespace = event_protest_free_education
+add_namespace = event_protest_unemployment_payment
+
+add_namespace = event_fascist_foreign_investors
+
+add_namespace = event_combined_military_exercises
+
+add_namespace = event_reactionary_protests
+add_namespace = event_fascism_protests
+add_namespace = event_communism_protests
+
+# GFX_report_event_soviet_tank_parade
+
+country_event = {
+	id = event_reactionary_protests.1
+	title = event_reactionary_protests.1.t
+	desc = event_reactionary_protests.1.desc
+
+	option = {
+		name = event_reactionary_protests.1.d
+		add_stability = -0.03
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_government = democratic
+				has_country_flag = has_unstable_democracy
+			}
+			hidden_effect = {
+				random_list = {
+					1 = {
+						country_event = {
+							id = event_fascism_protests.1
+							days = 50
+							random_days = 70
+						}
+					}
+					1 = {
+						country_event = {
+							id = event_communism_protests.1
+							days = 50
+							random_days = 70
+						}
+					}
+				}
+			}
+		}
+	}
+
+	is_triggered_only = yes
+
+	picture = GFX_report_event_bul_muraviev_protest
+}
+
+country_event = {
+	id = event_fascism_protests.1
+	title = event_fascism_protests.1.t
+	desc = event_fascism_protests.1.desc
+
+	option = {
+		name = event_fascism_protests.1.d
+		add_stability = -0.03
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_government = democratic
+				has_country_flag = has_unstable_democracy
+			}
+			hidden_effect = {
+				random_list = {
+					1 = {
+						country_event = {
+							id = event_fascism_protests.1
+							days = 50
+							random_days = 70
+						}
+					}
+					1 = {
+						country_event = {
+							id = event_communism_protests.1
+							days = 50
+							random_days = 70
+						}
+					}
+				}
+			}
+		}
+	}
+
+	is_triggered_only = yes
+
+	picture = GFX_news_event_gathering_protest
+}
+
+country_event = {
+	id = event_communism_protests.1
+	title = event_communism_protests.1.t
+	desc = event_communism_protests.1.desc
+
+	option = {
+		name = event_communism_protests.1.d
+		add_stability = -0.03
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_government = democratic
+				has_country_flag = has_unstable_democracy
+			}
+			hidden_effect = {
+				random_list = {
+					1 = {
+						country_event = {
+							id = event_fascism_protests.1
+							days = 50
+							random_days = 70
+						}
+					}
+					1 = {
+						country_event = {
+							id = event_communism_protests.1
+							days = 50
+							random_days = 70
+						}
+					}
+				}
+			}
+		}
+	}
+
+	is_triggered_only = yes
+
+	picture = GFX_news_event_gathering_protest
+}
+
+news_event = {
+	id = event_combined_military_exercises.1
+	title = event_combined_military_exercises.1.t
+	desc = event_combined_military_exercises.1.desc
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = {
+			has_government = democratic
+		}
+		name = event_combined_military_exercises.1.dem
+	}
+	option = {
+		trigger = {
+			has_government = communism
+		}
+		name = event_combined_military_exercises.1.c
+	}
+	option = {
+		trigger = {
+			OR = {
+				has_government = fascism
+				has_government = neutrality
+			}
+		}
+		name = event_combined_military_exercises.1.f
+	}
+
+	picture = GFX_news_event_020
+}
+
+country_event = {
+	id = event_fascist_foreign_investors.1
+	title = event_fascist_foreign_investors.1.t
+	desc = event_fascist_foreign_investors.1.desc
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = {
+			has_government = fascism
+		}
+		name = event_fascist_foreign_investors.1.f
+		unlock_decision_tooltip = ban_fascist_investors
+	}
+	option = {
+		trigger = {
+			NOT = { has_government = fascism }
+		}
+		name = event_fascist_foreign_investors.1.d
+		unlock_decision_tooltip = ban_fascist_investors
+	}
+	picture = GFX_report_event_tur_industry
+}
+
+news_event = {
+	id = event_communist_manifesto.1
+	title = event_communist_manifesto.1.t
+    desc = event_communist_manifesto.1.desc
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = {
+			has_government = communism
+		}
+		name = event_communist_manifesto.1.c
+	}
+	option = {
+		trigger = {
+			has_government = fascism
+		}
+		name = event_communist_manifesto.1.f
+	}
+	option = {
+		trigger = {
+			has_government = democratic
+			has_government = neutrality
+		}
+		name = event_communist_manifesto.1.d
+	}
+
+	picture = GFX_news_event_024
+}
+
+news_event = {
+	id = event_workers_march.1
+	title = event_workers_march.1.t
+    desc = event_workers_march.1.desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = event_workers_march.1.a
+	}
+	picture = GFX_news_event_generic_rally2
+}
+
+country_event = {
+	id = event_communism_influence.1
+	title = event_communism_influence.1.t
+	desc = {
+		trigger = {
+			tag = EGL
+		}
+		text = event_communism_influence.1.desc
+	}
+	desc = {
+		trigger = {
+			tag = FEI
+		}
+		text = event_communism_influence.1.desc2
+	}
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = {
+			has_government = fascism
+		}
+		name = event_communism_influence.1.f
+
+		country_event = {
+			id = event_protest_eight_hour_day.1
+			days = 45
+			random_days = 60
+		}
+	}
+	option = {
+		trigger = {
+			NOT = { has_government = fascism }
+		}
+		name = event_communism_influence.1.d
+
+		country_event = {
+			id = event_protest_eight_hour_day.1
+			days = 45
+			random_days = 60
+		}
+	}
+	picture = GFX_report_event_french_resistance_02
+}
+
+country_event = {
+	id = event_red_wave.1
+	title = event_red_wave.1.t
+    desc = event_red_wave.1.desc
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = {
+			has_government = fascism
+		}
+		name = event_red_wave.1.f
+	}
+	option = {
+		trigger = {
+			has_government = fascism
+		}
+		name = event_red_wave.1.c
+	}
+	option = {
+		trigger = {
+			has_government = communism
+		}
+		name = event_red_wave.1.c
+	}
+	option = {
+		name = event_red_wave.1.d
+	}
+	picture = GFX_report_event_hungary_gains_transylvania
+}
+
+country_event = {
+	id = event_protest_eight_hour_day.1
+	title = event_protest_eight_hour_day.1.t
+    desc = event_protest_eight_hour_day.1.desc
+
+	is_triggered_only = yes
+
+	trigger = {
+		THIS = {
+			has_idea = communist_influence
+		}
+	}
+
+	option = {
+		name = event_protest_eight_hour_day.1.a
+		add_popularity = {
+			ideology = communism
+			popularity = 0.1
+		}
+		country_event = {
+			id = event_protest_free_education.1
+			days = 90
+			random_days = 60
+		}
+
+	}
+	option = {
+		name = event_protest_eight_hour_day.1.b
+		set_country_flag = {
+			flag = recent_communist_rally
+			days = 100
+		}
+		custom_effect_tooltip = unlocked_reform_tooltip
+		set_country_flag = unlocked_eight_hour_decision
+		country_event = {
+			id = event_protest_free_education.1
+			days = 90
+			random_days = 60
+		}
+	}
+	option = {
+		name = event_protest_eight_hour_day.1.c
+		set_country_flag = {
+			flag = recent_communist_rally
+			days = 100
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = -0.05
+		}
+		add_stability = -0.05
+		country_event = {
+			id = event_protest_free_education.1
+			days = 90
+			random_days = 60
+		}
+	}
+
+	picture = GFX_report_event_worker_protests
+}
+
+country_event = {
+	id = event_protest_free_education.1
+	title = event_protest_free_education.1.t
+    desc = event_protest_free_education.1.desc
+
+	is_triggered_only = yes
+
+	trigger = {
+		THIS = {
+			has_idea = communist_influence
+		}
+	}
+
+	option = {
+		name = event_protest_free_education.1.a
+		add_popularity = {
+			ideology = communism
+			popularity = 0.1
+		}
+		set_country_flag = {
+			flag = recent_communist_rally
+			days = 100
+		}
+		country_event = {
+			id = event_protest_unemployment_payment.1
+			days = 90
+			random_days = 60
+		}
+	}
+	option = {
+		name = event_protest_free_education.1.b
+		set_country_flag = {
+			flag = recent_communist_rally
+			days = 100
+		}
+		custom_effect_tooltip = unlocked_reform_tooltip
+		set_country_flag = unlocked_free_education_decision
+		country_event = {
+			id = event_protest_unemployment_payment.1
+			days = 90
+			random_days = 60
+		}
+	}
+	option = {
+		name = event_protest_free_education.1.c
+		set_country_flag = {
+			flag = recent_communist_rally
+			days = 100
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = -0.05
+		}
+		add_stability = -0.05
+		country_event = {
+			id = event_protest_unemployment_payment.1
+			days = 90
+			random_days = 60
+		}
+	}
+
+	picture = GFX_report_event_worker_protests
+}
+
+country_event = {
+	id = event_protest_unemployment_payment.1
+	title = event_protest_unemployment_payment.1.t
+    desc = event_protest_unemployment_payment.1.desc
+
+	is_triggered_only = yes
+
+	trigger = {
+		THIS = {
+			has_idea = communist_influence
+		}
+	}
+
+	option = {
+		name = event_protest_unemployment_payment.1.a
+		add_popularity = {
+			ideology = communism
+			popularity = 0.1
+		}
+	}
+	option = {
+		name = event_protest_unemployment_payment.1.b
+		set_country_flag = {
+			flag = recent_communist_rally
+			days = 100
+		}
+		set_country_flag = unlocked_eight_unemployment_payment_decision
+		custom_effect_tooltip = unlocked_reform_tooltip
+	}
+	option = {
+		name = event_protest_unemployment_payment.1.c
+		set_country_flag = {
+			flag = recent_communist_rally
+			days = 100
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = -0.05
+		}
+		add_stability = -0.05
+	}
+
+	picture = GFX_report_event_worker_protests
+}
+

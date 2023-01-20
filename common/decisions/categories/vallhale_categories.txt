@@ -1,0 +1,13 @@
+inner_politics = {}
+reforms = {}
+foreign_influence = {}
+category_commisars = {
+	visible = {
+		has_completed_focus = establish_commisars
+	}
+}
+category_military_exercises = {
+	visible = {
+		has_completed_focus = field_exercises
+	}
+}

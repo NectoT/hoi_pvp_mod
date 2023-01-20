@@ -1,0 +1,13 @@
+foreign_influnce = {
+	ban_fascist_investors = {
+		icon = GFX_decision_category_gre_investment_decisions
+		visible = {
+			has_idea = fascist_investors
+		}
+		complete_effect = {
+			remove_ideas = fascist_investors
+			add_stability = -0.1
+		}
+		cost = 300
+	}
+}

@@ -1,0 +1,11 @@
+STATE_colonial_control = {
+	icon = GFX_idea_colonial_control
+	state_resources_factor = 0.3
+	local_non_core_manpower	= 0.3	
+}
+
+active_development = {
+	icon = GFX_idea_active_development
+	production_speed_infrastructure_factor = 0.3
+	production_speed_industrial_complex_factor = 0.1
+}

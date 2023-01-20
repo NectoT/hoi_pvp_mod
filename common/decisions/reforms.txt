@@ -1,0 +1,47 @@
+reforms = {
+	eight_hour_reform = {
+		visible = {
+			THIS = {
+				has_country_flag = unlocked_eight_hour_decision
+			}
+		}
+		cost = 50
+		complete_effect = {
+			add_popularity = {
+				ideology = communism
+				popularity = -0.1
+			}
+			add_ideas = eight_hour_day
+		}
+	}
+	free_education_reform = {
+		visible = {
+			THIS = {
+				has_country_flag = unlocked_free_education_decision
+			}
+		}
+		cost = 50
+		complete_effect = {
+			add_popularity = {
+				ideology = communism
+				popularity = -0.1
+			}
+			add_ideas = communist_free_education
+		}
+	}
+	unemployment_payment_reform = {
+		visible = {
+			THIS = {
+				has_country_flag = unlocked_eight_unemployment_payment_decision
+			}
+		}
+		cost = 50
+		complete_effect = {
+			add_popularity = {
+				ideology = communism
+				popularity = -0.1
+			}
+			add_ideas = communist_unenmployment_pensions
+		}
+	}
+}

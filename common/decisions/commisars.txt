@@ -1,0 +1,92 @@
+category_commisars = {
+	rotate_peoples_commisars = {
+		icon = GFX_decision_category_military_operation
+		days_remove = 365
+
+		available = {
+			NOT = { has_country_flag = commisars_rotated }
+		}
+
+		remove_effect = {
+			set_country_flag = {
+				flag = commisars_rotated
+				value = 0
+			}
+		}
+
+		complete_effect = {
+			add_timed_idea = {
+				idea = peoples_commisars_rotated
+				days = 365
+			}
+			set_country_flag = commisars_rotated
+		}
+		cost = 150
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	rotate_military_commisars = {
+		icon = GFX_decision_category_military_operation
+		days_remove = 365
+
+		available = {
+			NOT = { has_country_flag = commisars_rotated }
+		}
+
+		remove_effect = {
+			set_country_flag = {
+				flag = commisars_rotated
+				value = 0
+			}
+		}
+
+		complete_effect = {
+			remove_decision = rotate_political_commisars
+			remove_decision = rotate_peoples_commisars
+			add_timed_idea = {
+				idea = military_commisars_rotated
+				days = 365
+			}
+			set_country_flag = commisars_rotated
+		}
+		cost = 150
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+
+	rotate_political_commisars = {
+		icon = GFX_decision_category_military_operation
+		days_remove = 365
+
+		available = {
+			NOT = { has_country_flag = commisars_rotated }
+		}
+
+		remove_effect = {
+			set_country_flag = {
+				flag = commisars_rotated
+				value = 0
+			}
+		}
+
+		complete_effect = {
+			remove_decision = rotate_military_commisars
+			remove_decision = rotate_peoples_commisars
+			add_timed_idea = {
+				idea = political_commisars_rotated
+				days = 365
+			}
+			set_country_flag = commisars_rotated
+		}
+		cost = 150
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+}
