@@ -23,6 +23,17 @@ if = {
 	}
 	set_naval_oob = "WVA_1936_naval_vanilla"
 }
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		early_ship_hull_light = 1
+		early_battleship = 1
+		early_ship_hull_cruiser = 1
+		basic_cruiser_armor_scheme = 1
+		early_ship_hull_submarine = 1
+	}
+	set_naval_oob = "WVA_1936_naval_mtg"
+}
 
 if = {
 	limit = { NOT = { has_dlc = "By Blood Alone" } }
@@ -32,11 +43,26 @@ if = {
 	}
 	set_air_oob = "WVA_1936_air_vanilla"
 }
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+	set_technology = {
+		iw_small_airframe = 1
+		iw_medium_airframe = 1
+	}
+	set_air_oob = "WVA_1936_air_bba"
+}
 
 if = {
 	limit = { NOT = { has_dlc = "No Step Back" } }
 	set_technology = {
 		gwtank = 1
+	}
+}
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+		engine_tech_1 = 1
 	}
 }
 

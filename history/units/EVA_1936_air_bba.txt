@@ -1,0 +1,14 @@
+air_wings = {
+	95 = {
+		small_plane_airframe_0 = {
+			owner = EVA
+			amount = 150
+		}
+	}
+	89 = {
+		medium_plane_airframe_0 = {
+			owner = EVA
+			amount = 80
+		}
+	}
+}

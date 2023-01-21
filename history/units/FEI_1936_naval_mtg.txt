@@ -1,0 +1,102 @@
+units = {
+	fleet = {
+		name = "First Defender Fleet"
+		naval_base = 953
+		task_force = {
+			name = "First Escadron"
+			location = 953
+			ship = {
+				definition = destroyer
+				equipment = { ship_hull_light_2 = { amount = 1 owner = FEI } }
+			}
+			ship = {
+				definition = destroyer
+				equipment = { ship_hull_light_2 = { amount = 1 owner = FEI } }
+			}
+			ship = {
+				definition = destroyer
+				equipment = { ship_hull_light_2 = { amount = 1 owner = FEI } }
+			}
+			ship = {
+				definition = destroyer
+				equipment = { ship_hull_light_2 = { amount = 1 owner = FEI } }
+			}
+			ship = {
+				definition = destroyer
+				equipment = { ship_hull_light_1 = { amount = 1 owner = FEI } }
+			}
+			ship = {
+				definition = destroyer
+				equipment = { ship_hull_light_1 = { amount = 1 owner = FEI } }
+			}
+		}
+		task_force = {
+			name = "Second Escadron"
+			location = 953
+			ship = {
+				definition = light_cruiser
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FEI } }
+			}
+			ship = {
+				definition = light_cruiser
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FEI } }
+			}
+			ship = {
+				definition = light_cruiser
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FEI } }
+			}
+			ship = {
+				definition = heavy_cruiser
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FEI } }
+			}
+		}
+	}
+	fleet = {
+		name = "Second Defender Fleet"
+		naval_base = 1034
+		task_force = {
+			name = "First Escadron"
+			location = 1034
+			ship = {
+				definition = destroyer
+				equipment = { ship_hull_light_1 = { amount = 1 owner = FEI } }
+			}
+			ship = {
+				definition = heavy_cruiser
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FEI } }
+			}
+			ship = {
+				definition = heavy_cruiser
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FEI } }
+			}
+			ship = {
+				definition = light_cruiser
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FEI } }
+			}
+		}
+		task_force = {
+			name = "Second Escadron"
+			location = 1034
+			ship = {
+				definition = submarine
+				equipment = { ship_hull_submarine_2 = { amount = 1 owner = FEI } }
+			}
+			ship = {
+				definition = submarine
+				equipment = { ship_hull_submarine_2 = { amount = 1 owner = FEI } }
+			}
+			ship = {
+				definition = submarine
+				equipment = { ship_hull_submarine_2 = { amount = 1 owner = FEI } }
+			}
+			ship = {
+				definition = submarine
+				equipment = { ship_hull_submarine_2 = { amount = 1 owner = FEI } }
+			}
+			ship = {
+				definition = submarine
+				equipment = { ship_hull_submarine_2 = { amount = 1 owner = FEI } }
+			}
+		}
+	}
+}

@@ -1,0 +1,110 @@
+units = {
+	fleet = {
+		name = "Royal Armada"
+		naval_base = 839
+		task_force = {
+			name = "Home Fleet"
+			location = 839
+			ship = {
+				name = "Monterre"
+				definition = battleship
+				equipment = { ship_hull_heavy_1 = { amount = 1 owner = WVA} }
+				pride_of_the_fleet = yes
+			}
+			ship = {
+				name = "VWF-1"
+				definition = destroyer
+				equipment = { ship_hull_light_1 = { amount = 1 owner = WVA} }
+			}
+			ship = {
+				name = "VWF-2"
+				definition = destroyer
+				equipment = { ship_hull_light_1 = { amount = 1 owner = WVA} }
+			}
+			ship = {
+				name = "VWF-3"
+				definition = destroyer
+				equipment = { ship_hull_light_1 = { amount = 1 owner = WVA} }
+			}
+			ship = {
+				name = "VWF-4"
+				definition = destroyer
+				equipment = { ship_hull_light_1 = { amount = 1 owner = WVA} }
+			}
+			ship = {
+				name = "VWF-5"
+				definition = light_cruiser
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = WVA} }
+			}
+			ship = {
+				name = "VWF-6"
+				definition = light_cruiser
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = WVA} }
+			}
+			ship = {
+				name = "VWF-7"
+				definition = destroyer
+				equipment = { ship_hull_light_1 = { amount = 1 owner = WVA} }
+			}
+
+		}
+		task_force = {
+			name = "Responce Force"
+			location = 839
+			ship = {
+				name = "VWF-9"
+				definition = light_cruiser
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = WVA } }
+			}
+			ship = {
+				name = "VWF-10"
+				definition = light_cruiser
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = WVA } }
+			}
+			ship = {
+				name = "VWF-11"
+				definition = light_cruiser
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = WVA } }
+			}
+			ship = {
+				name = "VWF-12"
+				definition = light_cruiser
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = WVA } }
+			}
+			ship = {
+				name = "VWF-13"
+				definition = heavy_cruiser
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = WVA } }
+			}
+		}
+		task_force = {
+			name = "Angriffmarine"
+			location = 501
+			ship = {
+				name = "S-1"
+				definition = submarine
+				equipment = { ship_hull_submarine_1 = { amount = 1 owner = WVA } }
+			}
+			ship = {
+				name = "S-2"
+				definition = submarine
+				equipment = { ship_hull_submarine_1 = { amount = 1 owner = WVA } }
+			}
+			ship = {
+				name = "S-3"
+				definition = submarine
+				equipment = { ship_hull_submarine_1 = { amount = 1 owner = WVA } }
+			}
+			ship = {
+				name = "S-4"
+				definition = submarine
+				equipment = { ship_hull_submarine_1 = { amount = 1 owner = WVA } }
+			}
+			ship = {
+				name = "S-5"
+				definition = submarine
+				equipment = { ship_hull_submarine_1 = { amount = 1 owner = WVA } }
+			}
+		}
+	}
+}
