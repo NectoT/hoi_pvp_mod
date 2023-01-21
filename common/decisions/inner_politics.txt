@@ -14,6 +14,24 @@ inner_politics = {
 		}
 		cost = 300
 		priority = 3
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				AND = {
+					has_government = fascism
+					fascism < 0.7
+				}
+				add = 10
+			}
+			modifier = {
+				AND = {
+					has_government = communism
+					communism < 0.7
+				}
+				add = 10
+			}
+		}
 	}
 
 	limited_to_uncensored_media = {
@@ -48,6 +66,17 @@ inner_politics = {
 		}
 		cost = 300
 		priority = 2
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				AND = {
+					has_government = democratic
+					democratic < 0.6
+				}
+				add = 5
+			}
+		}
 	}
 
 	state_to_uncensored_media = {

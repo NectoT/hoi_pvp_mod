@@ -1,0 +1,39 @@
+fascist_popularity_plan = {
+    enable = {
+		has_government = fascism
+		fascism < 0.7
+	}
+
+	abort = {
+		OR = {
+			NOT = { has_government = fascism }
+			fascism > 0.7
+		}
+	}
+
+	name = "Fascist popularity plan"
+
+	traits = {
+		fascist_demagogue = 10
+	}
+}
+
+communist_popularity_plan = {
+    enable = {
+		has_government = communism
+		communism  < 0.7
+	}
+
+	abort = {
+		OR = {
+			NOT = { has_government = communism }
+			communism > 0.7
+		}
+	}
+
+	name = "Communist popularity plan"
+
+	traits = {
+		fascist_demagogue = 10
+	}
+}

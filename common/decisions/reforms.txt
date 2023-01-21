@@ -13,6 +13,10 @@ reforms = {
 			}
 			add_ideas = eight_hour_day
 		}
+
+		ai_will_do = {
+			base = 5
+		}
 	}
 	free_education_reform = {
 		visible = {
@@ -28,6 +32,10 @@ reforms = {
 			}
 			add_ideas = communist_free_education
 		}
+
+		ai_will_do = {
+			base = 5
+		}
 	}
 	unemployment_payment_reform = {
 		visible = {
@@ -42,6 +50,10 @@ reforms = {
 				popularity = -0.1
 			}
 			add_ideas = communist_unenmployment_pensions
+		}
+
+		ai_will_do = {
+			base = 5
 		}
 	}
 }
