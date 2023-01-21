@@ -1574,9 +1574,10 @@ focus_tree = {
 		x = 0
 		y = 1
 		completion_reward = {
-			every_state = {
+			every_owned_state = {
 				limit = {
 					NOT = { is_core_of = ROOT }
+					
 				}
 				add_dynamic_modifier = {
 					modifier = STATE_colonial_control
