@@ -79,6 +79,21 @@ set_party_name = {
 	long_name = WVA_PARTY_neutrality_long
 	name = WVA_PARTY_neutrality
 }
+set_party_name = {
+	ideology = democratic
+	long_name = WVA_PARTY_democratic_long
+	name = WVA_PARTY_democratic
+}
+set_party_name = {
+	ideology = communism
+	long_name = WVA_PARTY_communism_long
+	name = WVA_PARTY_communism
+}
+set_party_name = {
+	ideology = fascism
+	long_name = WVA_PARTY_movement_long
+	name = WVA_PARTY_movement
+}
 
 set_popularities = {
 	neutrality = 50

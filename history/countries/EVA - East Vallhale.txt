@@ -75,15 +75,24 @@ recruit_character = EVA_military_guy
 recruit_character = EVA_fascist_leader
 
 set_party_name = {
-	ideology = fascism
-	long_name = EVA_PARTY_movement_long
-	name = EVA_PARTY_movement
-}
-
-set_party_name = {
 	ideology = neutrality
 	long_name = EVA_PARTY_neutrality_long
 	name = EVA_PARTY_neutrality
+}
+set_party_name = {
+	ideology = democratic
+	long_name = EVA_PARTY_democratic_long
+	name = EVA_PARTY_democratic
+}
+set_party_name = {
+	ideology = communism
+	long_name = EVA_PARTY_communism_long
+	name = EVA_PARTY_communism
+}
+set_party_name = {
+	ideology = fascism
+	long_name = EVA_PARTY_movement_long
+	name = EVA_PARTY_movement
 }
 
 set_popularities = {

@@ -88,6 +88,27 @@ set_popularities = {
 	fascism = 10
 }
 
+set_party_name = {
+	ideology = neutrality
+	long_name = FEI_PARTY_neutrality_long
+	name = FEI_PARTY_neutrality
+}
+set_party_name = {
+	ideology = democratic
+	long_name = FEI_PARTY_democratic_long
+	name = FEI_PARTY_democratic
+}
+set_party_name = {
+	ideology = communism
+	long_name = FEI_PARTY_communism_long
+	name = FEI_PARTY_communism
+}
+set_party_name = {
+	ideology = fascism
+	long_name = FEI_PARTY_fascism_long
+	name = FEI_PARTY_fascism
+}
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1930.3.4"

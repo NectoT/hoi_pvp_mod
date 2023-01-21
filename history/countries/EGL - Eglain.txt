@@ -79,6 +79,16 @@ add_equipment_to_stockpile = {
 }
 
 set_party_name = {
+	ideology = neutrality
+	long_name = EGL_PARTY_neutrality_long
+	name = EGL_PARTY_neutrality
+}
+set_party_name = {
+	ideology = democratic
+	long_name = EGL_PARTY_democratic_long
+	name = EGL_PARTY_democratic
+}
+set_party_name = {
 	ideology = communism
 	long_name = EGL_PARTY_workmen_long
 	name = EGL_PARTY_workmen
