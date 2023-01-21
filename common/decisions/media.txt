@@ -1,0 +1,132 @@
+media = {
+	limited_to_state_media = {
+		visible = {
+			has_idea = limited_media
+		}
+		available = {
+			has_completed_focus = return_free_press
+		}
+		complete_effect = {
+			swap_ideas = {
+				remove_idea = limited_media
+				add_idea = state_media
+			}
+		}
+		cost = 300
+		priority = 3
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				AND = {
+					has_government = fascism
+					fascism < 0.7
+				}
+				add = 10
+			}
+			modifier = {
+				AND = {
+					has_government = communism
+					communism < 0.7
+				}
+				add = 10
+			}
+		}
+	}
+
+	limited_to_uncensored_media = {
+		visible = {
+			has_idea = limited_media
+		}
+		available = {
+			has_completed_focus = return_free_press
+		}
+		complete_effect = {
+			swap_ideas = {
+				remove_idea = limited_media
+				add_idea = uncensored_media
+			}
+		}
+		cost = 150
+		priority = 1
+	}
+
+	state_to_limited_media = {
+		visible = {
+			has_idea = state_media
+		}
+		available = {
+			has_completed_focus = return_free_press
+		}
+		complete_effect = {
+			swap_ideas = {
+				remove_idea = state_media
+				add_idea = limited_media
+			}
+		}
+		cost = 300
+		priority = 2
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				AND = {
+					has_government = democratic
+					democratic < 0.6
+				}
+				add = 5
+			}
+		}
+	}
+
+	state_to_uncensored_media = {
+		visible = {
+			has_idea = state_media
+		}
+		available = {
+			has_completed_focus = return_free_press
+		}
+		complete_effect = {
+			swap_ideas = {
+				remove_idea = state_media
+				add_idea = uncensored_media
+			}
+		}
+		cost = 450
+		priority = 1
+	}
+
+	uncensored_to_limited_media = {
+		visible = {
+			has_idea = uncensored_media
+		}
+		available = {
+			has_completed_focus = return_free_press
+		}
+		complete_effect = {
+			swap_ideas = {
+				remove_idea = uncensored_media
+				add_idea = limited_media
+			}
+		}
+		cost = 300
+		priority = 2
+	}
+
+	uncensored_to_state_media = {
+		visible = {
+			has_idea = uncensored_media
+		}
+		available = {
+			has_completed_focus = return_free_press
+		}
+		complete_effect = {
+			swap_ideas = {
+				remove_idea = uncensored_media
+				add_idea = state_media
+			}
+		}
+		cost = 600
+		priority = 3
+	}
+}
