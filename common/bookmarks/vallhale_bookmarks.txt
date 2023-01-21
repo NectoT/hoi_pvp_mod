@@ -7,40 +7,68 @@ bookmarks = {
 		default_country = EVA
 		default = yes
 
-		EVA = {
-			ideology = neutrality
-			minor = no
-
-			ideas = {
-				unpopular_figurehead
-			}
-		}
-
 		WVA = {
+			history = "WVA_bookmark"
 			ideology = neutrality
-			minor = no
 
 			ideas = {
-				unpopular_figurehead
+				state_media
+			}
+
+			focuses = {
+				workers_march
+				FOCUS_peoples_leader
+				bulwark_of_democracy
 			}
 		}
 
-		EGL = {
+		EVA = {
+			history = "EVA_bookmark"
 			ideology = neutrality
-			minor = no
 
 			ideas = {
-				unpopular_figurehead
+				state_media
+			}
+
+			focuses = {
+				workers_march
+				FOCUS_peoples_leader
+				bulwark_of_democracy
 			}
 		}
 
 		FEI = {
+			history = "FEI_bookmark"
 			ideology = neutrality
-			minor = no
+
+			ideas = {
+				state_media
+			}
+
+			focuses = {
+				workers_march
+				FOCUS_peoples_leader
+				bulwark_of_democracy
+			}
 		}
 
-		effect = { 
-			randomize_weather = 9184
+		EGL = {
+			history = "EGL_bookmark"
+			ideology = neutrality
+
+			ideas = {
+				state_media
+			}
+
+			focuses = {
+				workers_march
+				FOCUS_peoples_leader
+				bulwark_of_democracy
+			}
+		}
+
+		effect = {
+			randomize_weather = 12345
 		}
 	}
 }
