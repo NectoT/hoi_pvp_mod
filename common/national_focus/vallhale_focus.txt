@@ -625,7 +625,7 @@ focus_tree = {
 				ruling_party = communism
 			}
 			add_named_threat = {
-				threat = 5
+				threat = 6
 				name = threat_communist_rule
 			}
 		}
@@ -1209,7 +1209,7 @@ focus_tree = {
 				ruling_party = fascism
 			}
 			add_named_threat = {
-				threat = 5
+				threat = 6
 				name = threat_fascist_rule
 			}
 		}
