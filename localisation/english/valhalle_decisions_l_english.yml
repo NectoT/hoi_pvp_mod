@@ -1,5 +1,9 @@
 ﻿l_english:
 inner_politics: "Inner Politics"
+promote_fascism: "Promote Fascism"
+promote_communism: "Promote Communism"
+promote_democratic: "Promote Democratic"
+media: "Media"
 limited_to_state_media: "Institute State Media"
 limited_to_uncensored_media: "Institute Uncensored Media"
 state_to_limited_media: "Institute Regulated Media"
