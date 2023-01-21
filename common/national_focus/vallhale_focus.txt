@@ -628,6 +628,11 @@ focus_tree = {
 				threat = 6
 				name = threat_communist_rule
 			}
+
+			swap_ideas = {
+				remove_idea = limited_media
+				add_idea = state_media
+			}
 		}
 
 		available = {
@@ -653,7 +658,7 @@ focus_tree = {
 
 		available = {
 			has_government = communism
-			communism > 0.65
+			communism > 0.6
 		}
 		mutually_exclusive = {
 			focus = international_revolution
@@ -826,7 +831,7 @@ focus_tree = {
 
 		available = {
 			has_government = communism
-			communism > 0.65
+			communism > 0.6
 		}
 		mutually_exclusive = {
 			focus = socialism_in_one_country
@@ -1211,6 +1216,11 @@ focus_tree = {
 			add_named_threat = {
 				threat = 6
 				name = threat_fascist_rule
+			}
+
+			swap_ideas = {
+				remove_idea = limited_media
+				add_idea = state_media
 			}
 		}
 
