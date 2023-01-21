@@ -209,7 +209,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = special_forces
+	id = special_forces_pvp
 	icon = GFX_goal_generic_special_forces
 	prerequisite = { focus = equipment_effort_pvp_3 }
 	prerequisite = { focus = doctrine_effort_pvp_2 }
