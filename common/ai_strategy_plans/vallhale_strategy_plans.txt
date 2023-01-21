@@ -34,6 +34,26 @@ communist_popularity_plan = {
 	name = "Communist popularity plan"
 
 	traits = {
-		fascist_demagogue = 10
+		communist_revolutionary = 10
+	}
+}
+
+fascist_popularity_plan = {
+    enable = {
+		has_government = democratic
+		democratic < 0.55
+	}
+
+	abort = {
+		OR = {
+			NOT = { has_government = communism }
+			democratic > 0.55
+		}
+	}
+
+	name = "Democratic popularity plan"
+
+	traits = {
+		democratic_reformer  = 10
 	}
 }
