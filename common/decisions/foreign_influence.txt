@@ -1,4 +1,4 @@
-foreign_influnce = {
+foreign_influence = {
 	ban_fascist_investors = {
 		icon = GFX_decision_category_gre_investment_decisions
 		visible = {
