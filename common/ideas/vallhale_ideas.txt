@@ -213,6 +213,7 @@ ideas = {
 
 			modifier = {
 				stability_weekly = 0.01
+				drift_defence_factor = 0.3
 			}
 
 			on_remove = {
