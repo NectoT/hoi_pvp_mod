@@ -32,6 +32,10 @@ focus_tree = {
 			}
 			add_political_power = 150
 		}
+
+		ai_will_do = {
+			factor = 2
+		}
 	}
 	focus = {
 		id = hold_election
@@ -47,6 +51,10 @@ focus_tree = {
 
 		completion_reward = {
 
+		}
+
+		ai_will_do = {
+			factor = 2
 		}
 	}
 	# paper - GFX_focus_hol_the_foundations_of_defense
@@ -79,6 +87,10 @@ focus_tree = {
 		available = {
 			has_government = neutrality
 		}
+
+		ai_will_do = {
+			factor = 2
+		}
 	}
 
 	focus = {
@@ -109,6 +121,10 @@ focus_tree = {
 				random_days = 70
 			}
 		}
+
+		ai_will_do = {
+			factor = 2
+		}
 	}
 
 	focus = {
@@ -124,6 +140,10 @@ focus_tree = {
 		completion_reward = {
 			add_research_slot = 1
 		}
+
+		ai_will_do = {
+			factor = 4
+		}
 	}
 
 	focus = {
@@ -138,6 +158,10 @@ focus_tree = {
 		y = 2
 		completion_reward = {
 			add_ideas = treasury_bonds
+		}
+
+		ai_will_do = {
+			factor = 2
 		}
 	}
 
@@ -164,6 +188,10 @@ focus_tree = {
 					days = 1000
 				}
 			}
+		}
+
+		ai_will_do = {
+			factor = 2
 		}
 	}
 
@@ -196,6 +224,10 @@ focus_tree = {
 				}
 			}
 		}
+
+		ai_will_do = {
+			factor = 2
+		}
 	}
 
 	focus = {
@@ -221,6 +253,10 @@ focus_tree = {
 				flag = has_unstable_democracy
 				value = 0
 			}
+		}
+
+		ai_will_do = {
+			factor = 4
 		}
 	}
 
@@ -265,6 +301,14 @@ focus_tree = {
 			navy_experience = 40
 			army_experience = 20
 			remove_ideas = army_training
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				threat > 0.6
+				factor = 5
+			}
 		}
 	}
 
@@ -361,6 +405,10 @@ focus_tree = {
 				threat > 5
 			}
 		}
+
+		ai_will_do = {
+			factor = 4
+		}
 	}
 
 	focus = {
@@ -376,6 +424,10 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 40
 			custom_effect_tooltip = field_exercises_tooltip
+		}
+
+		ai_will_do = {
+			factor = 4
 		}
 	}
 
@@ -397,6 +449,10 @@ focus_tree = {
 
 		bypass = {
 			has_war = yes
+		}
+
+		ai_will_do = {
+			factor = 2
 		}
 	}
 
@@ -429,6 +485,10 @@ focus_tree = {
 			}
 			add_ideas = idea_indirect_approach
 		}
+
+		ai_will_do = {
+			factor = 2
+		}
 	}
 
 	focus = {
@@ -453,6 +513,10 @@ focus_tree = {
 			}
 			add_ideas = idea_land_warfare
 		}
+
+		ai_will_do = {
+			factor = 2
+		}
 	}
 
 	focus = {
@@ -475,6 +539,10 @@ focus_tree = {
 			}
 			add_command_power = 20
 			add_ideas = idea_military_planning
+		}
+
+		ai_will_do = {
+			factor = 2
 		}
 	}
 
@@ -526,6 +594,10 @@ focus_tree = {
 				has_global_flag = communist_manifesto_written
 			}
 		}
+
+		ai_will_do = {
+			factor = 2
+		}
 	}
 
 
@@ -561,6 +633,10 @@ focus_tree = {
 		available = {
 			communism > 0.2
 		}
+
+		ai_will_do = {
+			factor = 4
+		}
 	}
 
 	focus = {
@@ -586,6 +662,14 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.1
 		}
+
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				has_idea = communist_theorists
+				add = 5
+			}
+		}
 	}
 
 	focus = {
@@ -600,6 +684,14 @@ focus_tree = {
 		}
 		completion_reward = {
 			custom_effect_tooltip = tooltip_unlocked_commisars
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				has_idea = communist_theorists
+				add = 5
+			}
 		}
 	}
 
@@ -617,6 +709,14 @@ focus_tree = {
 		completion_reward = {
 			remove_ideas = radicalism
 			add_manpower = -40000
+		}
+
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				has_idea = communist_theorists
+				add = 5
+			}
 		}
 	}
 
@@ -642,6 +742,14 @@ focus_tree = {
 					NOT = { has_government = communism }
 				}
 				add_war_support = 0.2
+			}
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				has_idea = communist_theorists
+				add = 5
 			}
 		}
 	}
@@ -694,6 +802,14 @@ focus_tree = {
 				}
 			}
 		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				has_idea = communist_theorists
+				add = 5
+			}
+		}
 	}
 
 	focus = {
@@ -720,6 +836,14 @@ focus_tree = {
 			add_war_support = 0.2
 		}
 
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				has_idea = communist_theorists
+				add = 5
+			}
+		}
+
 	}
 
 	focus = {
@@ -736,6 +860,14 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = cosmopolitanism
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				has_idea = communist_theorists
+				add = 5
+			}
 		}
 	}
 
@@ -758,6 +890,14 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = international_legion
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				has_idea = communist_theorists
+				add = 5
+			}
 		}
 	}
 
@@ -855,6 +995,13 @@ focus_tree = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				has_idea = communist_theorists
+				add = 5
+			}
+		}
 	}
 
 
@@ -875,6 +1022,14 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			add_war_support = 0.2
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				has_idea = communist_theorists
+				add = 5
+			}
 		}
 	}
 
@@ -897,6 +1052,14 @@ focus_tree = {
 				}
 				add_ideas = communist_influence_small
 				country_event = event_red_wave.1
+			}
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				has_idea = communist_theorists
+				add = 5
 			}
 		}
 	}
@@ -925,6 +1088,14 @@ focus_tree = {
 				days = 1825
 			}
 		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				has_idea = communist_theorists
+				add = 8
+			}
+		}
 	}
 
 	focus = {
@@ -945,6 +1116,10 @@ focus_tree = {
 				category = engineers_tech
 				category = construction_tech
 			}
+		}
+
+		ai_will_do = {
+			factor = 2
 		}
 	}
 
@@ -1004,6 +1179,10 @@ focus_tree = {
 			focus = new_constitution
 			focus = communist_manifesto
 		}
+
+		ai_will_do = {
+			factor = 2
+		}
 	}
 
 	focus = {
@@ -1034,6 +1213,10 @@ focus_tree = {
 				name = threat_fascist_rule
 			}
 		}
+
+		ai_will_do = {
+			factor = 4
+		}
 	}
 
 	focus = {
@@ -1057,6 +1240,10 @@ focus_tree = {
 				popularity = 0.1
 			}
 			add_war_support = 0.1
+		}
+
+		ai_will_do = {
+			factor = 2
 		}
 	}
 
@@ -1082,6 +1269,10 @@ focus_tree = {
 			}
 			add_stability = 0.1
 		}
+
+		ai_will_do = {
+			factor = 2
+		}
 	}
 
 	focus = {
@@ -1091,14 +1282,16 @@ focus_tree = {
 		cost = 10
 		prerequisite = {
 			focus = appease_democrats
-		}
-		prerequisite = {
 			focus = appease_reactioners
 		}
 		x = 1
 		y = 1
 		completion_reward = {
 			remove_ideas = radicalism
+		}
+
+		ai_will_do = {
+			factor = 4
 		}
 	}
 
@@ -1132,6 +1325,10 @@ focus_tree = {
 				set_state_category = town
 			}
 		}
+
+		ai_will_do = {
+			factor = 2
+		}
 	}
 
 	focus = {
@@ -1164,6 +1361,10 @@ focus_tree = {
 				}
 			}
 		}
+
+		ai_will_do = {
+			factor = 2
+		}
 	}
 
 	focus = {
@@ -1190,6 +1391,10 @@ focus_tree = {
 			has_government = fascism
 			fascism > 0.65
 		}
+
+		ai_will_do = {
+			factor = 4
+		}
 	}
 
 	focus = {
@@ -1213,6 +1418,10 @@ focus_tree = {
 
 			}
 		}
+
+		ai_will_do = {
+			factor = 2
+		}
 	}
 
 	focus = {
@@ -1227,6 +1436,10 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			add_ideas = magnates_support
+		}
+
+		ai_will_do = {
+			factor = 2
 		}
 	}
 
@@ -1272,6 +1485,10 @@ focus_tree = {
 				name = threat_living_space_question
 			}
 		}
+
+		ai_will_do = {
+			factor = 2
+		}
 	}
 
 	focus = {
@@ -1298,6 +1515,10 @@ focus_tree = {
 				ideology = fascism
 				popularity = 0.1
 			}
+		}
+
+		ai_will_do = {
+			factor = 2
 		}
 	}
 
@@ -1336,6 +1557,10 @@ focus_tree = {
 			focus = establish_purpleshirts
 			focus = communist_manifesto
 		}
+
+		ai_will_do = {
+			factor = 2
+		}
 	}
 
 	focus = {
@@ -1358,6 +1583,10 @@ focus_tree = {
 				}
 			}
 		}
+
+		ai_will_do = {
+			factor = 2
+		}
 	}
 
 	focus = {
@@ -1372,6 +1601,10 @@ focus_tree = {
 		y = 2
 		completion_reward = {
 			remove_ideas = radicalism
+		}
+
+		ai_will_do = {
+			factor = 2
 		}
 	}
 
@@ -1391,6 +1624,10 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = land_of_stability
 		}
+
+		ai_will_do = {
+			factor = 3
+		}
 	}
 
 	focus = {
@@ -1408,6 +1645,10 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			add_war_support = 0.25
+		}
+
+		ai_will_do = {
+			factor = 2
 		}
 	}
 
@@ -1486,6 +1727,10 @@ focus_tree = {
 
 		bypass = {
 			has_war = yes
+		}
+
+		ai_will_do = {
+			factor = 2
 		}
 	}
 }
