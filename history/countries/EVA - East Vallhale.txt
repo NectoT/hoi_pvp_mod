@@ -72,6 +72,7 @@ add_equipment_to_stockpile = {
 }
 
 recruit_character = EVA_military_guy
+recruit_character = EVA_fascist_leader
 
 set_party_name = {
 	ideology = fascism

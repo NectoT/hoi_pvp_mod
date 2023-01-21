@@ -10,6 +10,7 @@ set_technology = {
 	tech_field_hospital = 1
 	infantry_weapons = 1
 	gw_artillery = 1
+	basic_decryption = 1
 }
 
 load_oob = "EGL_1936"
@@ -96,6 +97,7 @@ set_popularities = {
 }
 
 recruit_character = EGL_starting_ruler
+recruit_character = EGL_fascist_leader
 
 set_politics = {
 	ruling_party = neutrality

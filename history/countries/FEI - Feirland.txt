@@ -79,6 +79,7 @@ add_equipment_to_stockpile = {
 }
 
 recruit_character = FEI_starting_ruler
+recruit_character = FEI_fascist_leader
 
 set_popularities = {
 	neutrality = 50

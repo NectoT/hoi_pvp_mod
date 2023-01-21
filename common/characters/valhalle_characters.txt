@@ -208,6 +208,54 @@ characters = {
 		}
 	}
 
+	EVA_fascist_leader = {
+		name = EVA_fascist_leader
+		portraits = {
+			civilian = {
+				large = GFX_portrait_POL_tadeusz_bielecki
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+		}
+	}
+
+	WVA_fascist_leader = {
+		name = WVA_fascist_leader
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Vladko_Macek
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+		}
+	}
+
+	FEI_fascist_leader = {
+		name = FEI_fascist_leader
+		portraits = {
+			civilian = {
+				large = GFX_portrait_USA_harold_rainsford_stark
+			}
+		}
+		country_leader = {
+			ideology = rexism
+		}
+	}
+
+	EGL_fascist_leader = {
+		name = EGL_fascist_leader
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Ilyas_Zhansugurov
+			}
+		}
+		country_leader = {
+			ideology = rexism
+		}
+	}
+
 	# naval advisors
 	# GFX_CAN_leonard_warren_murray_small
 	# GFX_portrait_ENG_charles_forbes_small
