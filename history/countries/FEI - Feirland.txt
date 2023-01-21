@@ -122,6 +122,6 @@ recruit_character = FEI_high_command_5
 
 add_ideas = state_media
 
-WVA = {
-	save_event_target_as = country_enemy
+set_variable = {
+	country_enemy = WVA
 }

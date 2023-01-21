@@ -326,9 +326,9 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					has_event_target = country_enemy
+					has_variable = country_enemy
 				}
-				event_target:country_enemy = {
+				var:country_enemy = {
 					create_wargoal = {
 						target = THIS
 						type = topple_government
@@ -353,9 +353,9 @@ focus_tree = {
 		available = {
 			if = {
 				limit = {
-					has_event_target = country_enemy
+					has_variable = country_enemy
 				}
-				event_target:country_enemy = {
+				var:country_enemy = {
 					NOT = { has_government = democratic }
 				}
 			}
@@ -768,9 +768,9 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					has_event_target = country_enemy
+					has_variable = country_enemy
 				}
-				event_target:country_enemy = {
+				var:country_enemy = {
 					create_wargoal = {
 						target = THIS
 						type = puppet_wargoal_focus
@@ -795,9 +795,9 @@ focus_tree = {
 		available = {
 			if = {
 				limit = {
-					has_event_target = country_enemy
+					has_variable = country_enemy
 				}
-				event_target:country_enemy = {
+				var:country_enemy = {
 					NOT = { has_government = communism }
 				}
 			}
@@ -1462,9 +1462,9 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					has_event_target = country_enemy
+					has_variable = country_enemy
 				}
-				event_target:country_enemy = {
+				var:country_enemy = {
 					create_wargoal = {
 						target = THIS
 						type = annex_everything
@@ -1670,15 +1670,15 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					has_event_target = country_enemy
+					has_variable = country_enemy
 				}
-				event_target:country_enemy = {
+				var:country_enemy = {
 					random_state = {
 						limit = {
+							NOT = { is_owned_by = ROOT }
 							OR = {
 								any_state = {
 									is_coastal = yes
-									is_core_of = ROOT
 								}
 								any_neighbor_state = {
 									is_core_of = ROOT
