@@ -328,18 +328,18 @@ focus_tree = {
 				limit = {
 					has_variable = country_enemy
 				}
-				var:country_enemy = {
-					create_wargoal = {
-						target = THIS
-						type = topple_government
-					}
+				create_wargoal = {
+					target = var:country_enemy
+					type = topple_government
 				}
 			}
 			else = {
 				random_neighbor_country = {
-					create_wargoal = {
-						target = THIS
-						type = topple_government
+					ROOT = {
+						create_wargoal = {
+							target = PREV
+							type = topple_government
+						}
 					}
 				}
 			}
@@ -770,18 +770,18 @@ focus_tree = {
 				limit = {
 					has_variable = country_enemy
 				}
-				var:country_enemy = {
-					create_wargoal = {
-						target = THIS
-						type = puppet_wargoal_focus
-					}
+				create_wargoal = {
+					target = var:country_enemy
+					type = puppet_wargoal_focus
 				}
 			}
 			else = {
 				random_neighbor_country = {
-					create_wargoal = {
-						target = THIS
-						type = puppet_wargoal_focus
+					ROOT = {
+						create_wargoal = {
+							target = PREV
+							type = puppet_wargoal_focus
+						}
 					}
 				}
 			}
@@ -1464,18 +1464,18 @@ focus_tree = {
 				limit = {
 					has_variable = country_enemy
 				}
-				var:country_enemy = {
-					create_wargoal = {
-						target = THIS
-						type = annex_everything
-					}
+				create_wargoal = {
+					target = var:country_enemy
+					type = annex_everything
 				}
 			}
 			else = {
 				random_neighbor_country = {
-					create_wargoal = {
-						target = THIS
-						type = annex_everything
+					ROOT = {
+						create_wargoal = {
+							target = PREV
+							type = annex_everything
+						}
 					}
 				}
 			}
@@ -1687,10 +1687,10 @@ focus_tree = {
 						}
 						add_claim_by = ROOT
 					}
-					create_wargoal = {
-						target = THIS
-						type = take_claimed_state
-					}
+				}
+				create_wargoal = {
+					target = var:country_enemy
+					type = take_claimed_state
 				}
 			}
 			else = {
@@ -1709,9 +1709,11 @@ focus_tree = {
 						}
 						add_claim_by = ROOT
 					}
-					create_wargoal = {
-						target = THIS
-						type = take_claimed_state
+					ROOT = {
+						create_wargoal = {
+							target = PREV
+							type = take_claimed_state
+						}
 					}
 				}
 			}
