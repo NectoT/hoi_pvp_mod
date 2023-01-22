@@ -44,8 +44,6 @@ category_commisars = {
 		}
 
 		complete_effect = {
-			remove_decision = rotate_political_commisars
-			remove_decision = rotate_peoples_commisars
 			add_timed_idea = {
 				idea = military_commisars_rotated
 				days = 365
@@ -75,8 +73,6 @@ category_commisars = {
 		}
 
 		complete_effect = {
-			remove_decision = rotate_military_commisars
-			remove_decision = rotate_peoples_commisars
 			add_timed_idea = {
 				idea = political_commisars_rotated
 				days = 365
