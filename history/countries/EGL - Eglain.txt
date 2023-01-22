@@ -141,8 +141,6 @@ recruit_character = EGL_high_command_3
 recruit_character = EGL_high_command_4
 recruit_character = EGL_high_command_5
 
-add_ideas = state_media
-
 set_variable = {
 	country_enemy = EVA
 }

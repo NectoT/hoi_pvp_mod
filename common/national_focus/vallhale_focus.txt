@@ -20,37 +20,14 @@ focus_tree = {
 	shared_focus = industrial_effort_pvp
 
 	focus = {
-		id = return_free_press
-		icon = GFX_focus_hol_the_foundations_of_defense
-		cost = 10
-		x = 39
-		y = 0
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = state_media
-				add_idea = limited_media
-			}
-			add_political_power = 150
-		}
-
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	focus = {
 		id = hold_election
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		cost = 10
-		x = 0
-		y = 1
-		relative_position_id = return_free_press
-
-		prerequisite = {
-			focus = return_free_press
-		}
+		x = 39
+		y = 0
 
 		completion_reward = {
-
+			add_political_power = 150
 		}
 
 		ai_will_do = {
@@ -62,7 +39,7 @@ focus_tree = {
 	focus = {
 		id = manipulate_votes
 		icon = GFX_focus_rigged_elections
-		cost = 2
+		cost = 4
 		x = -3
 		y = 1
 		relative_position_id = hold_election
@@ -96,7 +73,7 @@ focus_tree = {
 	focus = {
 		id = count_votes
 		icon = GFX_focus_fair_elections
-		cost = 2
+		cost = 4
 		x = 3
 		y = 1
 		relative_position_id = hold_election
@@ -669,7 +646,7 @@ focus_tree = {
 
 		available = {
 			has_government = communism
-			communism > 0.6
+			communism > 0.55
 		}
 		mutually_exclusive = {
 			focus = international_revolution
@@ -859,7 +836,7 @@ focus_tree = {
 
 		available = {
 			has_government = communism
-			communism > 0.6
+			communism > 0.55
 		}
 		mutually_exclusive = {
 			focus = socialism_in_one_country
