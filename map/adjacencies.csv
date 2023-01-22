@@ -1,3 +1,5 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
-878;891;sea;831;-1;-1;-1;-1;white_sea_strait;-1
-879;894;sea;832;-1;-1;-1;-1;inner_ocean_strait;-1
+885;831;sea;831;-1;-1;-1;-1;white_sea_strait;-1
+886;832;sea;832;-1;-1;-1;-1;inner_ocean_strait;-1
+878;891;sea;832;-1;-1;-1;-1;;-1
+879;894;sea;831;-1;-1;-1;-1;;-1
