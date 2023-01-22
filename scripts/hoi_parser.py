@@ -55,6 +55,8 @@ def _save_contents(contents, file, depth=0, whitelist=None, blacklist=["_name"])
             continue
         if key in blacklist:
             continue
+        if str(key)[0] == "_":
+            continue
         
         if newline:
             file.write("\t"*depth)

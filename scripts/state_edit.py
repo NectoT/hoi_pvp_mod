@@ -88,9 +88,11 @@ for id in [74, 75]:
 for id in [56, 57]:
     states[id]['state']['resources'] = {'chromium': 50}
 for id in [88, 89]:
-    states[id]['state']['resources'] = {'aluminium': 100}
+    states[id]['state']['resources'] = {'aluminium': 14}
 for id in [8, 13]:
-    states[id]['state']['resources'] = {'steel': 170, 'aluminium': 24}
+    states[id]['state']['resources'] = {'steel': 90, 'aluminium': 84}
+for id in [22, 23]:
+    states[id]['state']['resources'] = {'steel': 20}
 for id in [15, 14]:
     states[id]['state']['resources'] = {'chromium': 60}
 
