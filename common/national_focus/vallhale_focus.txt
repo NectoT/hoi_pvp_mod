@@ -39,7 +39,7 @@ focus_tree = {
 	focus = {
 		id = manipulate_votes
 		icon = GFX_focus_rigged_elections
-		cost = 4
+		cost = 5
 		x = -3
 		y = 1
 		relative_position_id = hold_election
@@ -73,7 +73,7 @@ focus_tree = {
 	focus = {
 		id = count_votes
 		icon = GFX_focus_fair_elections
-		cost = 4
+		cost = 5
 		x = 3
 		y = 1
 		relative_position_id = hold_election
@@ -318,6 +318,13 @@ focus_tree = {
 					target = var:country_enemy
 					type = topple_government
 				}
+				if = {
+					limit = { is_ai = yes }
+					declare_war_on = {
+						type = topple_government
+						target = var:country_enemy
+					}
+				}
 			}
 			else = {
 				random_neighbor_country = {
@@ -325,6 +332,13 @@ focus_tree = {
 						create_wargoal = {
 							target = PREV
 							type = topple_government
+						}
+					}
+					if = {
+						limit = { is_ai = yes }
+						declare_war_on = {
+							type = topple_government
+							target = PREV
 						}
 					}
 				}
@@ -349,6 +363,10 @@ focus_tree = {
 
 		bypass = {
 			has_war = yes
+		}
+
+		ai_will_do = {
+			base = 3
 		}
 	}
 
@@ -616,11 +634,6 @@ focus_tree = {
 				threat = 6
 				name = threat_communist_rule
 			}
-
-			swap_ideas = {
-				remove_idea = limited_media
-				add_idea = state_media
-			}
 		}
 
 		available = {
@@ -784,6 +797,13 @@ focus_tree = {
 					target = var:country_enemy
 					type = puppet_wargoal_focus
 				}
+				if = {
+					limit = { is_ai = yes }
+					declare_war_on = {
+						target = var:country_enemy
+						type = puppet_wargoal_focus
+					}
+				}
 			}
 			else = {
 				random_neighbor_country = {
@@ -791,6 +811,13 @@ focus_tree = {
 						create_wargoal = {
 							target = PREV
 							type = puppet_wargoal_focus
+						}
+						if = {
+							limit = { is_ai = yes }
+							declare_war_on = {
+								target = PREV
+								type = puppet_wargoal_focus
+							}
 						}
 					}
 				}
@@ -1222,11 +1249,6 @@ focus_tree = {
 				threat = 6
 				name = threat_fascist_rule
 			}
-
-			swap_ideas = {
-				remove_idea = limited_media
-				add_idea = state_media
-			}
 		}
 
 		ai_will_do = {
@@ -1424,7 +1446,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			random_country = {
+			random_other_country = {
 				limit = {
 					NOT = {
 						is_neighbor_of = THIS
@@ -1483,6 +1505,13 @@ focus_tree = {
 					target = var:country_enemy
 					type = annex_everything
 				}
+				if = {
+					limit = { is_ai = yes }
+					declare_war_on = {
+						target = var:country_enemy
+						type = annex_everything
+					}
+				}
 			}
 			else = {
 				random_neighbor_country = {
@@ -1490,6 +1519,13 @@ focus_tree = {
 						create_wargoal = {
 							target = PREV
 							type = annex_everything
+						}
+						if = {
+							limit = { is_ai = yes }
+							declare_war_on = {
+								target = PREV
+								type = annex_everything
+							}
 						}
 					}
 				}
@@ -1707,6 +1743,12 @@ focus_tree = {
 					target = var:country_enemy
 					type = take_claimed_state
 				}
+				if = {
+					limit = { is_ai = yes }
+					declare_war_on = {
+						target = var:country_enemy
+					}
+				}
 			}
 			else = {
 				random_neighbor_country = {
@@ -1728,6 +1770,12 @@ focus_tree = {
 						create_wargoal = {
 							target = PREV
 							type = take_claimed_state
+						}
+						if = {
+							limit = { is_ai = yes }
+							declare_war_on = {
+								target = PREV
+							}
 						}
 					}
 				}
