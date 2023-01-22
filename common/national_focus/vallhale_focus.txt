@@ -292,7 +292,10 @@ focus_tree = {
 					name = threat_military_exercises_major
 				}
 			}
-			add_ideas = army_training
+			add_timed_idea = {
+				idea = army_training
+				days = 70
+			}
 		}
 		# add ai focus on training here
 
@@ -300,7 +303,13 @@ focus_tree = {
 			air_experience = 40
 			navy_experience = 40
 			army_experience = 20
-			remove_ideas = army_training
+			custom_effect_tooltip = combined_military_exercise_tooltip
+			effect_tooltip = {
+				add_timed_idea = {
+					idea = army_training
+					days = 70
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -575,7 +584,9 @@ focus_tree = {
 				popularity = 0.05
 			}
 			recruit_character = communist_theorist_1
-			news_event = event_communist_manifesto.1
+			every_country = {
+				news_event = event_communist_manifesto.1	
+			}
 		}
 
 		select_effect = {
@@ -736,17 +747,34 @@ focus_tree = {
 			focus = purge_political_enemies
 		}
 		completion_reward = {
-			every_neighbor_country = {
+			if = {
 				limit = {
-					has_government = communism
+						has_variable = var:country_enemy
+						var:country_enemy = {
+							NOT = { has_government = communism }
+						}
+				}
+				add_war_support = 0.2
+			}
+			else_if = {
+				limit = {
+					has_variable = var:country_enemy
+					var:country_enemy = {
+						has_government = communism
+					}
 				}
 				add_war_support = 0.05
 			}
-			every_neighbor_country = {
-				limit = {
-					NOT = { has_government = communism }
+			else_if = {
+				limit = { 
+					any_neighbor_country = {
+						NOT = { has_government = communism }
+					}
 				}
 				add_war_support = 0.2
+			}
+			else = {
+				add_war_support = 0.05
 			}
 		}
 
@@ -1425,7 +1453,7 @@ focus_tree = {
 						is_neighbor_of = THIS
 					}
 				}
-
+				add_ideas = fascist_investors
 			}
 		}
 
