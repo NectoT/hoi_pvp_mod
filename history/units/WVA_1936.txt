@@ -34,91 +34,107 @@ units = {
 		division_template = "Vallhalean Cavalry"
 		name = "Cavalry Regiment 1"
 		start_equipment_factor = 0.5
+		start_experience_factor = 0.5
 	}
 	division = {
 		location = 772
 		division_template = "Vallhalean Cavalry"
 		name = "Cavalry Regiment 2"
 		start_equipment_factor = 0.5
+		start_experience_factor = 0.5
 	}
 	division = {
 		location = 772
 		division_template = "Vallhalean Cavalry"
 		name = "Cavalry Regiment 3"
 		start_equipment_factor = 0.5
+		start_experience_factor = 0.5
 	}
 	division = {
 		location = 772
 		division_template = "Vallhalean Cavalry"
 		name = "Cavalry Regiment 4"
 		start_equipment_factor = 0.5
+		start_experience_factor = 0.5
 	}
 	division = {
 		location = 617
 		division_template = "Vallhalean Cavalry"
 		name = "Cavalry Regiment 5"
 		start_equipment_factor = 0.5
+		start_experience_factor = 0.4
 	}
 	division = {
 		location = 617
 		division_template = "Vallhalean Cavalry"
 		name = "Cavalry Regiment 6"
 		start_equipment_factor = 0.5
+		start_experience_factor = 0.4
 	}
 	division = {
 		location = 617
 		division_template = "Vallhalean Cavalry"
 		name = "Cavalry Regiment 7"
 		start_equipment_factor = 0.5
+		start_experience_factor = 0.4
 	}
 	division = {
 		location = 565
 		division_template = "Vallhalean Cavalry"
 		name = "Cavalry Regiment 8"
 		start_equipment_factor = 0.5
+		start_experience_factor = 0.4
 	}
 	division = {
 		location = 565
 		division_template = "Vallhalean Cavalry"
 		name = "Cavalry Regiment 9"
 		start_equipment_factor = 0.5
+		start_experience_factor = 0.4
 	}
 	division = {
 		location = 565
 		division_template = "Vallhalean Cavalry"
 		name = "Cavalry Regiment 10"
 		start_equipment_factor = 0.5
+		start_experience_factor = 0.4
 	}
 	division = {
 		location = 565
 		division_template = "Vallhalean Cavalry"
 		name = "Cavalry Regiment 11"
 		start_equipment_factor = 0.5
+		start_experience_factor = 0.4
 	}
 	division = {
 		location = 520
 		division_template = "Vallhalean Cavalry"
 		name = "Cavalry Regiment 12"
 		start_equipment_factor = 0.5
+		start_experience_factor = 0.4
 	}
 	division = {
 		location = 699
 		division_template = "Vallhalean Cavalry"
 		name = "Cavalry Regiment 13"
+		start_experience_factor = 0.1
 	}
 	division = {
 		location = 699
 		division_template = "Vallhalean Cavalry"
 		name = "Cavalry Regiment 14"
+		start_experience_factor = 0.1
 	}
 	division = {
 		location = 699
 		division_template = "Vallhalean Cavalry"
 		name = "Cavalry Regiment 15"
+		start_experience_factor = 0.1
 	}
 	division = {
 		location = 699
 		division_template = "Vallhalean Cavalry"
 		name = "Cavalry Regiment 16"
+		start_experience_factor = 0.1
 	}
 }

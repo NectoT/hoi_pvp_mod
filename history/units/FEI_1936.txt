@@ -17,30 +17,36 @@ units = {
 		location = 1001
 		division_template = "Infantry Division"
 		name = "First Batallion"
+		start_experience_factor = 0.25
 	}
 	division = {
 		location = 1001
 		division_template = "Infantry Division"
 		name = "Second Batallion"
+		start_experience_factor = 0.25
 	}
 	division = {
 		location = 1001
 		division_template = "Infantry Division"
 		name = "Third Batallion"
+		start_experience_factor = 0.25
 	}
 	division = {
 		location = 1001
 		division_template = "Infantry Division"
 		name = "Fourth Batallion"
+		start_experience_factor = 0.25
 	}
 	division = {
 		location = 1001
 		division_template = "Infantry Division"
 		name = "Fifth Batallion"
+		start_experience_factor = 0.25
 	}
 	division = {
 		location = 1232
 		division_template = "Infantry Division"
 		name = "Expeditionary Batallion"
+		start_experience_factor = 0.25
 	}
 }

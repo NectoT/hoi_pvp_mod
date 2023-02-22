@@ -3,12 +3,14 @@ air_wings = {
 		small_plane_naval_bomber_airframe_1 = {
 			owner = FEI
 			amount = 100
+			version_name = "NB-3"
 		}
 	}
 	22 = {
 		small_plane_airframe_0 = {
 			owner = FEI
 			amount = 80
+			version_name = "F-1"
 		}
 	}
 }

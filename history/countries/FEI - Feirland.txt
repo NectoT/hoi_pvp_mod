@@ -44,6 +44,61 @@ if = {
 		basic_fire_control_system = 1
 		basic_torpedo = 1
 	}
+
+	create_equipment_variant = {
+		name = "Hunter Class"				
+		type = ship_hull_submarine_2
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_2
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Guardian Class"	
+		type = ship_hull_cruiser_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Layman Class"	
+		type = ship_hull_cruiser_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Wrath Class"	
+		type = ship_hull_light_2
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_2
+		}
+	}
+
+	create_equipment_variant = {
+		name = "William Class"	
+		type = ship_hull_light_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_2
+		}
+	}
+
 	set_naval_oob = "FEI_1936_naval_mtg"
 }
 
@@ -67,6 +122,29 @@ if = {
 		aa_lmg = 1
 		engines_1 = 1
 	}
+
+	create_equipment_variant = {
+		name = "NB-3"
+		type = small_plane_naval_bomber_airframe_1
+		
+		modules = {
+			fixed_main_weapon_slot = torpedo_mounting
+			fixed_auxiliary_weapon_slot_1 = light_mg_2x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = floats
+		}
+	}
+
+	create_equipment_variant = {
+		name = "F-1"
+		type = small_plane_airframe_0
+		
+		modules = {
+			fixed_main_weapon_slot = light_mg_4x
+			engine_type_slot = engine_1_1x
+		}
+	}
+
 	set_air_oob = "FEI_1936_air_bba"
 }
 

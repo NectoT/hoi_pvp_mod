@@ -6,42 +6,50 @@ units = {
 			name = "Home Fleet"
 			location = 848
 			ship = {
+				start_experience_factor = 0.25
 				name = "Felmund"
 				definition = battleship
 				equipment = { battleship_1 = { amount = 1 owner = EVA} }
 				pride_of_the_fleet = yes
 			}
 			ship = {
+				start_experience_factor = 0.25
 				name = "VWF-1"
 				definition = destroyer
 				equipment = { destroyer_1 = { amount = 1 owner = EVA} }
 			}
 			ship = {
+				start_experience_factor = 0.25
 				name = "VWF-2"
 				definition = destroyer
 				equipment = { destroyer_1 = { amount = 1 owner = EVA} }
 			}
 			ship = {
+				start_experience_factor = 0.25
 				name = "VWF-3"
 				definition = destroyer
 				equipment = { destroyer_1 = { amount = 1 owner = EVA} }
 			}
 			ship = {
+				start_experience_factor = 0.25
 				name = "VWF-4"
 				definition = destroyer
 				equipment = { destroyer_1 = { amount = 1 owner = EVA} }
 			}
 			ship = {
+				start_experience_factor = 0.25
 				name = "VWF-5"
 				definition = light_cruiser
 				equipment = { light_cruiser_1 = { amount = 1 owner = EVA} }
 			}
 			ship = {
+				start_experience_factor = 0.25
 				name = "VWF-6"
 				definition = light_cruiser
 				equipment = { light_cruiser_1 = { amount = 1 owner = EVA} }
 			}
 			ship = {
+				start_experience_factor = 0.25
 				name = "VWF-7"
 				definition = destroyer
 				equipment = { destroyer_1 = { amount = 1 owner = EVA} }
@@ -52,26 +60,31 @@ units = {
 			name = "Responce Force"
 			location = 848
 			ship = {
+				start_experience_factor = 0.25
 				name = "VWF-9"
 				definition = light_cruiser
 				equipment = { light_cruiser_1 = { amount = 1 owner = EVA } }
 			}
 			ship = {
+				start_experience_factor = 0.25
 				name = "VWF-10"
 				definition = light_cruiser
 				equipment = { light_cruiser_1 = { amount = 1 owner = EVA } }
 			}
 			ship = {
+				start_experience_factor = 0.25
 				name = "VWF-11"
 				definition = light_cruiser
 				equipment = { light_cruiser_1 = { amount = 1 owner = EVA } }
 			}
 			ship = {
+				start_experience_factor = 0.25
 				name = "VWF-12"
 				definition = light_cruiser
 				equipment = { light_cruiser_1 = { amount = 1 owner = EVA } }
 			}
 			ship = {
+				start_experience_factor = 0.25
 				name = "VWF-13"
 				definition = heavy_cruiser
 				equipment = { heavy_cruiser_1 = { amount = 1 owner = EVA } }
@@ -81,26 +94,31 @@ units = {
 			name = "Angriffmarine"
 			location = 503
 			ship = {
+				start_experience_factor = 0.25
 				name = "S-1"
 				definition = submarine
 				equipment = { submarine_1 = { amount = 1 owner = EVA } }
 			}
 			ship = {
+				start_experience_factor = 0.25
 				name = "S-2"
 				definition = submarine
 				equipment = { submarine_1 = { amount = 1 owner = EVA } }
 			}
 			ship = {
+				start_experience_factor = 0.25
 				name = "S-3"
 				definition = submarine
 				equipment = { submarine_1 = { amount = 1 owner = EVA } }
 			}
 			ship = {
+				start_experience_factor = 0.25
 				name = "S-4"
 				definition = submarine
 				equipment = { submarine_1 = { amount = 1 owner = EVA } }
 			}
 			ship = {
+				start_experience_factor = 0.25
 				name = "S-5"
 				definition = submarine
 				equipment = { submarine_1 = { amount = 1 owner = EVA } }

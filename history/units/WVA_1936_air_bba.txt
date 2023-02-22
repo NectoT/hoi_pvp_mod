@@ -3,12 +3,14 @@ air_wings = {
 		small_plane_airframe_0 = {
 			owner = EVA
 			amount = 150
+			version_name = "SuP 21"
 		}
 	}
 	88 = {
 		medium_plane_airframe_0 = {
 			owner = EVA
 			amount = 80
+			version_name = "Tac 15"
 		}
 	}
 }

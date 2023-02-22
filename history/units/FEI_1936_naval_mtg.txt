@@ -6,48 +6,58 @@ units = {
 			name = "First Escadron"
 			location = 953
 			ship = {
+				start_experience_factor = 0.5
 				definition = destroyer
-				equipment = { ship_hull_light_2 = { amount = 1 owner = FEI } }
+				equipment = { ship_hull_light_2 = { amount = 1 owner = FEI version_name = "Wrath Class"} }
 			}
 			ship = {
+				start_experience_factor = 0.5
 				definition = destroyer
-				equipment = { ship_hull_light_2 = { amount = 1 owner = FEI } }
+				equipment = { ship_hull_light_2 = { amount = 1 owner = FEI version_name = "Wrath Class"} }
 			}
 			ship = {
+				start_experience_factor = 0.5
 				definition = destroyer
-				equipment = { ship_hull_light_2 = { amount = 1 owner = FEI } }
+				equipment = { ship_hull_light_2 = { amount = 1 owner = FEI version_name = "Wrath Class"} }
 			}
 			ship = {
+				start_experience_factor = 0.5
 				definition = destroyer
-				equipment = { ship_hull_light_2 = { amount = 1 owner = FEI } }
+				equipment = { ship_hull_light_2 = { amount = 1 owner = FEI version_name = "Wrath Class"} }
 			}
 			ship = {
+				start_experience_factor = 0.5
 				definition = destroyer
-				equipment = { ship_hull_light_1 = { amount = 1 owner = FEI } }
+				equipment = { ship_hull_light_1 = { amount = 1 owner = FEI version_name = "William Class" } }
 			}
 			ship = {
+				start_experience_factor = 0.5
 				definition = destroyer
-				equipment = { ship_hull_light_1 = { amount = 1 owner = FEI } }
+				equipment = { ship_hull_light_1 = { amount = 1 owner = FEI version_name = "William Class" } }
 			}
 		}
 		task_force = {
 			name = "Second Escadron"
 			location = 953
 			ship = {
+				start_experience_factor = 0.5
 				definition = light_cruiser
-				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FEI } }
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FEI version_name = "Layman Class" } }
 			}
 			ship = {
+				start_experience_factor = 0.5
 				definition = light_cruiser
-				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FEI } }
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FEI version_name = "Layman Class" } }
 			}
 			ship = {
+				start_experience_factor = 0.5
 				definition = light_cruiser
-				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FEI } }
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FEI version_name = "Layman Class" } }
 			}
 			ship = {
+				start_experience_factor = 0.5
 				definition = heavy_cruiser
-				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FEI } }
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FEI version_name = "Guardian Class" } }
 			}
 		}
 	}
@@ -58,44 +68,53 @@ units = {
 			name = "First Escadron"
 			location = 1034
 			ship = {
+				start_experience_factor = 0.5
 				definition = destroyer
-				equipment = { ship_hull_light_1 = { amount = 1 owner = FEI } }
+				equipment = { ship_hull_light_1 = { amount = 1 owner = FEI version_name = "William Class" } }
 			}
 			ship = {
+				start_experience_factor = 0.5
 				definition = heavy_cruiser
-				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FEI } }
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FEI version_name = "Guardian Class" } }
 			}
 			ship = {
+				start_experience_factor = 0.5
 				definition = heavy_cruiser
-				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FEI } }
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FEI version_name = "Guardian Class" } }
 			}
 			ship = {
+				start_experience_factor = 0.5
 				definition = light_cruiser
-				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FEI } }
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FEI version_name = "Layman Class" } }
 			}
 		}
 		task_force = {
 			name = "Second Escadron"
 			location = 1034
 			ship = {
+				start_experience_factor = 0.3
 				definition = submarine
-				equipment = { ship_hull_submarine_2 = { amount = 1 owner = FEI } }
+				equipment = { ship_hull_submarine_2 = { amount = 1 owner = FEI version_name = "Hunter Class" } }
 			}
 			ship = {
+				start_experience_factor = 0.3
 				definition = submarine
-				equipment = { ship_hull_submarine_2 = { amount = 1 owner = FEI } }
+				equipment = { ship_hull_submarine_2 = { amount = 1 owner = FEI version_name = "Hunter Class" } }
 			}
 			ship = {
+				start_experience_factor = 0.3
 				definition = submarine
-				equipment = { ship_hull_submarine_2 = { amount = 1 owner = FEI } }
+				equipment = { ship_hull_submarine_2 = { amount = 1 owner = FEI version_name = "Hunter Class" } }
 			}
 			ship = {
+				start_experience_factor = 0.3
 				definition = submarine
-				equipment = { ship_hull_submarine_2 = { amount = 1 owner = FEI } }
+				equipment = { ship_hull_submarine_2 = { amount = 1 owner = FEI version_name = "Hunter Class" } }
 			}
 			ship = {
+				start_experience_factor = 0.3
 				definition = submarine
-				equipment = { ship_hull_submarine_2 = { amount = 1 owner = FEI } }
+				equipment = { ship_hull_submarine_2 = { amount = 1 owner = FEI version_name = "Hunter Class" } }
 			}
 		}
 	}

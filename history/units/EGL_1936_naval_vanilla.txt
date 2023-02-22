@@ -6,26 +6,32 @@ units = {
 			name = "First Escadron"
 			location = 954
 			ship = {
+				start_experience_factor = 0.5
 				definition = destroyer
 				equipment = { destroyer_2 = { amount = 1 owner = FEI } }
 			}
 			ship = {
+				start_experience_factor = 0.5
 				definition = destroyer
 				equipment = { destroyer_2 = { amount = 1 owner = FEI } }
 			}
 			ship = {
+				start_experience_factor = 0.5
 				definition = destroyer
 				equipment = { destroyer_2 = { amount = 1 owner = FEI } }
 			}
 			ship = {
+				start_experience_factor = 0.5
 				definition = destroyer
 				equipment = { destroyer_2 = { amount = 1 owner = FEI } }
 			}
 			ship = {
+				start_experience_factor = 0.5
 				definition = destroyer
 				equipment = { destroyer_1 = { amount = 1 owner = FEI } }
 			}
 			ship = {
+				start_experience_factor = 0.5
 				definition = destroyer
 				equipment = { destroyer_1 = { amount = 1 owner = FEI } }
 			}
@@ -34,18 +40,22 @@ units = {
 			name = "Second Escadron"
 			location = 954
 			ship = {
+				start_experience_factor = 0.5
 				definition = light_cruiser
 				equipment = { light_cruiser_1 = { amount = 1 owner = FEI } }
 			}
 			ship = {
+				start_experience_factor = 0.5
 				definition = light_cruiser
 				equipment = { light_cruiser_1 = { amount = 1 owner = FEI } }
 			}
 			ship = {
+				start_experience_factor = 0.5
 				definition = light_cruiser
 				equipment = { light_cruiser_1 = { amount = 1 owner = FEI } }
 			}
 			ship = {
+				start_experience_factor = 0.5
 				definition = heavy_cruiser
 				equipment = { heavy_cruiser_1 = { amount = 1 owner = FEI } }
 			}
@@ -58,18 +68,22 @@ units = {
 			name = "First Escadron"
 			location = 1035
 			ship = {
+				start_experience_factor = 0.5
 				definition = destroyer
 				equipment = { destroyer_1 = { amount = 1 owner = FEI } }
 			}
 			ship = {
+				start_experience_factor = 0.5
 				definition = heavy_cruiser
 				equipment = { heavy_cruiser_1 = { amount = 1 owner = FEI } }
 			}
 			ship = {
+				start_experience_factor = 0.5
 				definition = heavy_cruiser
 				equipment = { heavy_cruiser_1 = { amount = 1 owner = FEI } }
 			}
 			ship = {
+				start_experience_factor = 0.5
 				definition = light_cruiser
 				equipment = { light_cruiser_1 = { amount = 1 owner = FEI } }
 			}
@@ -78,22 +92,27 @@ units = {
 			name = "Second Escadron"
 			location = 1035
 			ship = {
+				start_experience_factor = 0.3
 				definition = submarine
 				equipment = { submarine_2 = { amount = 1 owner = FEI } }
 			}
 			ship = {
+				start_experience_factor = 0.3
 				definition = submarine
 				equipment = { submarine_2 = { amount = 1 owner = FEI } }
 			}
 			ship = {
+				start_experience_factor = 0.3
 				definition = submarine
 				equipment = { submarine_2 = { amount = 1 owner = FEI } }
 			}
 			ship = {
+				start_experience_factor = 0.3
 				definition = submarine
 				equipment = { submarine_2 = { amount = 1 owner = FEI } }
 			}
 			ship = {
+				start_experience_factor = 0.3
 				definition = submarine
 				equipment = { submarine_2 = { amount = 1 owner = FEI } }
 			}
