@@ -1,5 +1,9 @@
 category_military_exercises = {
 	decision_land_military_exercise = {
+		available = {
+			has_war = no
+		}
+
 		complete_effect = {
 			army_experience = 30
 			air_experience = 15
@@ -16,6 +20,10 @@ category_military_exercises = {
 		}
 	}
 	decision_naval_military_exercise = {
+		available = {
+			has_war = no
+		}
+
 		complete_effect = {
 			navy_experience = 30
 			air_experience = 15
