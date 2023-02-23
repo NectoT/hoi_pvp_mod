@@ -264,10 +264,10 @@ focus_tree = {
 					NOT = { tag = ROOT }
 				}
 				news_event = event_combined_military_exercises.1
-				add_named_threat = {
-					threat = 10
-					name = threat_military_exercises_major
-				}
+			}
+			add_named_threat = {
+				threat = 10
+				name = threat_military_exercises_major
 			}
 			add_timed_idea = {
 				idea = army_training
@@ -388,6 +388,9 @@ focus_tree = {
 				ROOT = {
 					add_war_support = 0.2
 				}
+			}
+			set_rule = {
+				can_create_factions = yes
 			}
 		}
 
@@ -871,6 +874,9 @@ focus_tree = {
 
 		completion_reward = {
 			add_war_support = 0.2
+			set_rule = {
+				can_create_factions = yes
+			}
 		}
 
 		ai_will_do = {
@@ -922,7 +928,6 @@ focus_tree = {
 
 		available = {
 			has_government = communism
-			communism > 0.8
 		}
 
 		completion_reward = {
@@ -1422,6 +1427,9 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			add_ideas = the_peoples_leader
+			set_rule = {
+				can_create_factions = yes
+			}
 		}
 
 		available = {
