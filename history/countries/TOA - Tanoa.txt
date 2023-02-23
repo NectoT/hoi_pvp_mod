@@ -1,0 +1,119 @@
+capital = 25
+
+set_research_slots = 2
+set_stability = 0.7
+set_war_support = 0.2
+
+set_technology = {
+	tech_support = 1
+	tech_engineers = 1
+	infantry_weapons = 1
+	gw_artillery = 1
+	basic_decryption = 1
+
+	basic_train = 1
+}
+
+if = {
+	limit = { NOT = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_cruiser_armor_scheme = 1
+
+		basic_battery = 1
+		basic_fire_control_system = 1
+		basic_torpedo = 1
+		
+		mtg_transport = 1
+	}
+}
+
+if = {
+	limit = { NOT = { has_dlc = "By Blood Alone" } }
+	set_technology = {
+		early_bomber = 1
+		early_fighter = 1
+	}
+}
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+	set_technology = {
+		iw_small_airframe = 1
+		iw_medium_airframe = 1
+		basic_small_airframe = 1
+
+		early_bombs = 1
+		aa_lmg = 1
+		engines_1 = 1
+	}
+}
+
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		gwtank = 1
+	}
+}
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+
+add_equipment_to_stockpile = {
+	type = convoy
+	amount = 50
+}
+
+set_popularities = {
+	neutrality = 70
+	democratic = 10
+	communism = 10
+	fascism = 10
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1876.3.4"
+	election_frequency = 96
+	elections_allowed = yes
+}
+
+recruit_character = WVA_theorist_1
+recruit_character = WVA_theorist_2
+recruit_character = WVA_theorist_3
+recruit_character = WVA_political_1
+recruit_character = WVA_political_2
+recruit_character = WVA_political_3
+recruit_character = WVA_political_4
+recruit_character = WVA_political_5
+recruit_character = WVA_army_chief_1
+recruit_character = WVA_army_chief_2
+recruit_character = WVA_army_chief_3
+recruit_character = WVA_air_chief_1
+recruit_character = WVA_air_chief_2
+recruit_character = WVA_navy_chief_1
+recruit_character = WVA_navy_chief_2
+recruit_character = WVA_high_command_1
+recruit_character = WVA_high_command_2
+recruit_character = WVA_high_command_3
+recruit_character = WVA_high_command_4
+recruit_character = WVA_high_command_5
+
+set_variable = {
+	country_enemy = WVA
+}

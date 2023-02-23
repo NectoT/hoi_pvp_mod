@@ -9,6 +9,8 @@ state = {
 	local_supplies = 0.000
 	history = { 
 		owner = EVA
+		victory_points = { 
+			280 1 		}
 		add_core_of = TAM
 		buildings = { 
 			infrastructure = 1
